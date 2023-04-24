@@ -1,0 +1,54 @@
+.a {
+    text-decoration: none;
+}
+
+.li {
+    list-style: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    height: 4rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+    z-index: 99;
+}
+
+.toggel__menu,
+.close__menu {
+    display: none;
+}
+
+.logo,
+.a {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #000;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    margin: 0 1.5rem;
+    padding: 1.4rem 0;
+}
+
+.nav__link:hover {
+    color: #a92ec8;
+}
+
+.dropdown__link {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown__icon {
+    font-size: 1.3rem;
+}
+
+
