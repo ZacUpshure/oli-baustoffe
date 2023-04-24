@@ -1,5 +1,5 @@
 import React from 'react';
-import { HiMenuAlt2 } from 'react-icons/hi';
+// import { HiMenuAlt2 } from 'react-icons/hi';
 import { IoMdClose } from 'react-icons/io';
 import { IoIosArrowDown } from 'react-icons/io'
 import styles from './Navbar.module.css';
@@ -12,7 +12,7 @@ const Navbar = () => {
                 <a href='#' className='a'>Oli-Baustoffe</a>
             </div>
             <div className={styles.toggle__menu}>
-                <HiMenuAlt2 />
+                {/* <HiMenuAlt2 /> */}
             </div>
             <ul className={`${styles.nav__list} ${styles.li}`}>
                 <div className={styles.close__menu}>
