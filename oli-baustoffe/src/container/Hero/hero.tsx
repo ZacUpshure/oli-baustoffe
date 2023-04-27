@@ -12,9 +12,9 @@ const Hero = () => {
                         <p className={styles.hero_description}>
                         Hoch qualitative Dachplatten , Zubehör und vieles mehr.
                         </p>
-                        <a href="#cta" className="btn btn--full margin-right-sm">Get a Website</a>
-                        <a href="#features" className="btn btn--outline">Keep going &darr; </a>
-                        <div className={styles.customer_quick_peek}>
+                        <a href="#cta" className="btn btn--full margin-right-sm">Zum Sortiment</a>
+                        <a href="#features" className="btn btn--outline">Weiterlesen &darr; </a>
+                        {/* <div className={styles.customer_quick_peek}>
                             <div className={styles.customer_faces}>
                                 <img src={images.test.src} alt="test-square"/>
                                 <img src={images.test.src} alt="test-square"/>
@@ -24,7 +24,7 @@ const Hero = () => {
                                 <img src={images.test.src} alt="test-square"/>
                             </div>
                             <p className="customer-text"><span>100+</span> Happy Customers!</p> 
-                        </div>
+                        </div> */}
                     </div>
                 <div className="hero-img-box"> 
                     <img 

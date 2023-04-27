@@ -11,7 +11,8 @@ import {
 } from '../container';
 
 import {
-  Navbar
+  Navbar,
+  NavbarTwo
 } from '../components';
 
 export default function Home() {
@@ -26,7 +27,8 @@ export default function Home() {
         </Head>
 
         <header className={`${styles.main} ${inter.className}` + ' header'}>
-          <Navbar />
+          {/* <Navbar /> */}
+          <NavbarTwo />
         </header>
 
         <main className={`${styles.main} ${inter.className}`}>

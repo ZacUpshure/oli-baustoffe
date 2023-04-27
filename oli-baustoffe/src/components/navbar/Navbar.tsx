@@ -9,31 +9,229 @@ const Navbar = () => {
     <>
         <nav className={styles.nav}>
             <div className={`${styles.logo} ${styles.a}`}>
-                <a href='#' className='a'>Oli-Baustoffe</a>
-            </div>
-            <div className={styles.toggle__menu}>
-                <HiMenuAlt2 />
+                <a href='#' className={styles.a}>Oli-Baustoffe</a>
             </div>
             <ul className={`${styles.nav__list} ${styles.li}`}>
                 <div className={styles.close__menu}>
                     <IoMdClose />
                 </div>
-                <li className="nav__item li">
-                    <a href="#" className="nav__link a">Home</a>
+                <li className={`${styles.nav__item} ${styles.li}`}>
+                    <a href="#" className={`${styles.nav__link} ${styles.a}`}>Home</a>
                 </li>
-                <li className="nav__item dropdown li">
-                    <a href="#" className="nav__link a">Entdecken <i className='dropdown__icon'><IoIosArrowDown /></i></a>
+                <li className={`${styles.nav__item} ${styles.dropdown} ${styles.li}`}>
+                    <a href="#" className={`${styles.nav__link} ${styles.a}`}>Entdecken <i className={styles.dropdown__icon}><IoIosArrowDown /></i>
+                        <div className={`${styles.megamenu} ${styles.hide}`}>
+                            <ul className={styles.content}>
+                                <li className={`${styles.megamenu__item} ${styles.header__megamenu} ${styles.li}`}>Heading</li>
+                                <li className={`${styles.megamenu__item} ${styles.li}`}>
+                                    <div className={styles.menu__icon}>
+                                        <i></i>
+                                    </div>
+                                    <div className={styles.megamenu__link}>
+                                        <a href="#" className={styles.a}>Bona</a>
+                                        <p className={styles.p} ></p>
+                                    </div>
+                                </li>
+                                <li className={`${styles.megamenu__item} ${styles.li}`}>
+                                    <div className={styles.menu__icon}>
+                                        <i></i>
+                                    </div>
+                                    <div className={styles.megamenu__link}>
+                                        <a href="#" className={styles.a}>Perl</a>
+                                        <p className={styles.p} ></p>
+                                    </div>
+                                </li>
+                                <li className={`${styles.megamenu__item} ${styles.li}`}>
+                                    <div className={styles.menu__icon}>
+                                        <i></i>
+                                    </div>
+                                    <div className={styles.megamenu__link}>
+                                        <a href="#" className={styles.a}>Hestia</a>
+                                        <p className={styles.p} ></p>
+                                    </div>
+                                </li>
+                                <li className={`${styles.megamenu__item} ${styles.li}`}>
+                                    <div className={styles.menu__icon}>
+                                        <i></i>
+                                    </div>
+                                    <div className={styles.megamenu__link}>
+                                        <a href="#" className={styles.a}>Hera</a>
+                                        <p className={styles.p} ></p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul className={styles.content}>
+                                <li className={`${styles.megamenu__item} ${styles.header__megamenu} ${styles.li}`}>Heading</li>
+                                <li className={`${styles.megamenu__item} ${styles.li}`}>
+                                    <div className={styles.menu__icon}>
+                                        <i></i>
+                                    </div>
+                                    <div className={styles.megamenu__link}>
+                                        <a href="#" className={styles.a}>Bona</a>
+                                        <p className={styles.p} ></p>
+                                    </div>
+                                </li>
+                                <li className={`${styles.megamenu__item} ${styles.li}`}>
+                                    <div className={styles.menu__icon}>
+                                        <i></i>
+                                    </div>
+                                    <div className={styles.megamenu__link}>
+                                        <a href="#" className={styles.a}>Perl</a>
+                                        <p className={styles.p} ></p>
+                                    </div>
+                                </li>
+                                <li className={`${styles.megamenu__item} ${styles.li}`}>
+                                    <div className={styles.menu__icon}>
+                                        <i></i>
+                                    </div>
+                                    <div className={styles.megamenu__link}>
+                                        <a href="#" className={styles.a}>Hestia</a>
+                                        <p className={styles.p} ></p>
+                                    </div>
+                                </li>
+                                <li className={`${styles.megamenu__item} ${styles.li}`}>
+                                    <div className={styles.menu__icon}>
+                                        <i></i>
+                                    </div>
+                                    <div className={styles.megamenu__link}>
+                                        <a href="#" className={styles.a}>Hera</a>
+                                        <p className={styles.p} ></p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul className={styles.content}>
+                                <li className={`${styles.megamenu__item} ${styles.header__megamenu} ${styles.li}`}>Heading</li>
+                                <li className={`${styles.megamenu__item} ${styles.li}`}>
+                                    <div className={styles.menu__icon}>
+                                        <i></i>
+                                    </div>
+                                    <div className={styles.megamenu__link}>
+                                        <a href="#" className={styles.a}>Bona</a>
+                                        <p className={styles.p} ></p>
+                                    </div>
+                                </li>
+                                <li className={`${styles.megamenu__item} ${styles.li}`}>
+                                    <div className={styles.menu__icon}>
+                                        <i></i>
+                                    </div>
+                                    <div className={styles.megamenu__link}>
+                                        <a href="#" className={styles.a}>Perl</a>
+                                        <p className={styles.p} ></p>
+                                    </div>
+                                </li>
+                                <li className={`${styles.megamenu__item} ${styles.li}`}>
+                                    <div className={styles.menu__icon}>
+                                        <i></i>
+                                    </div>
+                                    <div className={styles.megamenu__link}>
+                                        <a href="#" className={styles.a}>Hestia</a>
+                                        <p className={styles.p} ></p>
+                                    </div>
+                                </li>
+                                <li className={`${styles.megamenu__item} ${styles.li}`}>
+                                    <div className={styles.menu__icon}>
+                                        <i></i>
+                                    </div>
+                                    <div className={styles.megamenu__link}>
+                                        <a href="#" className={styles.a}>Hera</a>
+                                        <p className={styles.p} ></p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul className={styles.content}>
+                                <li className={`${styles.megamenu__item} ${styles.header__megamenu} ${styles.li}`}>Heading</li>
+                                <li className={`${styles.megamenu__item} ${styles.li}`}>
+                                    <div className={styles.menu__icon}>
+                                        <i></i>
+                                    </div>
+                                    <div className={styles.megamenu__link}>
+                                        <a href="#" className={styles.a}>Bona</a>
+                                        <p className={styles.p} ></p>
+                                    </div>
+                                </li>
+                                <li className={`${styles.megamenu__item} ${styles.li}`}>
+                                    <div className={styles.menu__icon}>
+                                        <i></i>
+                                    </div>
+                                    <div className={styles.megamenu__link}>
+                                        <a href="#" className={styles.a}>Perl</a>
+                                        <p className={styles.p} ></p>
+                                    </div>
+                                </li>
+                                <li className={`${styles.megamenu__item} ${styles.li}`}>
+                                    <div className={styles.menu__icon}>
+                                        <i></i>
+                                    </div>
+                                    <div className={styles.megamenu__link}>
+                                        <a href="#" className={styles.a}>Hestia</a>
+                                        <p className={styles.p} ></p>
+                                    </div>
+                                </li>
+                                <li className={`${styles.megamenu__item} ${styles.li}`}>
+                                    <div className={styles.menu__icon}>
+                                        <i></i>
+                                    </div>
+                                    <div className={styles.megamenu__link}>
+                                        <a href="#" className={styles.a}>Hera</a>
+                                        <p className={styles.p} ></p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul className={styles.content}>
+                                <li className={`${styles.megamenu__item} ${styles.header__megamenu} ${styles.li}`}>Heading</li>
+                                <li className={`${styles.megamenu__item} ${styles.li}`}>
+                                    <div className={styles.menu__icon}>
+                                        <i></i>
+                                    </div>
+                                    <div className={styles.megamenu__link}>
+                                        <a href="#" className={styles.a}>Bona</a>
+                                        <p className={styles.p} ></p>
+                                    </div>
+                                </li>
+                                <li className={`${styles.megamenu__item} ${styles.li}`}>
+                                    <div className={styles.menu__icon}>
+                                        <i></i>
+                                    </div>
+                                    <div className={styles.megamenu__link}>
+                                        <a href="#" className={styles.a}>Perl</a>
+                                        <p className={styles.p} ></p>
+                                    </div>
+                                </li>
+                                <li className={`${styles.megamenu__item} ${styles.li}`}>
+                                    <div className={styles.menu__icon}>
+                                        <i></i>
+                                    </div>
+                                    <div className={styles.megamenu__link}>
+                                        <a href="#" className={styles.a}>Hestia</a>
+                                        <p className={styles.p} ></p>
+                                    </div>
+                                </li>
+                                <li className={`${styles.megamenu__item} ${styles.li}`}>
+                                    <div className={styles.menu__icon}>
+                                        <i></i>
+                                    </div>
+                                    <div className={styles.megamenu__link}>
+                                        <a href="#" className={styles.a}>Hera</a>
+                                        <p className={styles.p} ></p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
                 </li>
-                <li className="nav__item li">
-                    <a href="#" className="nav__link a">Gallerie</a>
+                <li className={`${styles.nav__item} ${styles.li}`}>
+                    <a href="#" className={`${styles.nav__link} ${styles.a}`}>Gallerie</a>
                 </li>
-                <li className="nav__item li">
-                    <a href="#" className="nav__link a">Kontakt</a>
+                <li className={`${styles.nav__item} ${styles.li}`}>
+                    <a href="#" className={`${styles.nav__link} ${styles.a}`}>Kontakt</a>
                 </li>
-                <li className="nav__item li">
-                    <a href="#" className="nav__link a">Auktionen</a>
+                <li className={`${styles.nav__item} ${styles.li}`}>
+                    <a href="#" className={`${styles.nav__link} ${styles.a}`}>Auktionen</a>
                 </li>
             </ul>
+            <div className={styles.toggle__menu}>
+                <HiMenuAlt2 />
+            </div>
         </nav>
     </>
   )
