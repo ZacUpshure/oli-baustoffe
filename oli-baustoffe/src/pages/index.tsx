@@ -9,7 +9,11 @@ const inter = Inter({ subsets: ['latin'] })
 import { 
   Hero,
   Partners,
-  Dachbaustoffe
+  Dachbaustoffe,
+  Dachplatten,
+  Trapezplatten,
+  IconGrid,
+  ContactInfo
 } from '../container';
 
 import {
@@ -38,6 +42,10 @@ export default function Home() {
             <Hero />
             <Partners />
             <Dachbaustoffe />
+            <IconGrid />
+            <Dachplatten />
+            <Trapezplatten />
+            <ContactInfo />
           </div>
         </main>
 
