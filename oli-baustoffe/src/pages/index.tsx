@@ -7,7 +7,9 @@ import styles from '@/styles/Home.module.css'
 const inter = Inter({ subsets: ['latin'] })
 
 import { 
-  Hero
+  Hero,
+  Partners,
+  Dachbaustoffe
 } from '../container';
 
 import {
@@ -34,6 +36,8 @@ export default function Home() {
         <main className={`${styles.main} ${inter.className}`}>
           <div className={styles.description}>
             <Hero />
+            <Partners />
+            <Dachbaustoffe />
           </div>
         </main>
 
