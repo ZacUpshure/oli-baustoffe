@@ -18,7 +18,8 @@ import {
 
 import {
   Navbar,
-  NavbarTwo
+  NavbarTwo,
+  Footer
 } from '../components';
 
 export default function Home() {
@@ -49,8 +50,8 @@ export default function Home() {
           </div>
         </main>
 
-        <footer>
-
+        <footer className={styles.footer}>
+          <Footer />
         </footer>
       </div>
     </>

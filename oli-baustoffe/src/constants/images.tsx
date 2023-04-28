@@ -4,6 +4,8 @@ import logo from '../assets/logo.png';
 
 //lottie
 import house1 from '../assets/lottie/house1.json';
+import isohouse from '../assets/lottie/isometricHouse.json';
+import delivery from '../assets/lottie/delivery.json';
 
 // icons
 import icon1 from '../assets/icons/icon1.png';
@@ -46,5 +48,7 @@ export default {
     icon3,
     icon4,
 
-    house1
+    house1,
+    isohouse,
+    delivery
 };

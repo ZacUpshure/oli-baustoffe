@@ -27,7 +27,7 @@ const Trapezplatten = () => {
                     et justo duo dolores et ea rebum. Stet clita kasd gubergren,
                     no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </p>
-                {/* <Lottie animationData={Images.house1} className={styles.lottie}/> */}
+                <Lottie animationData={Images.delivery} className={styles.lottie}/>
             </div>
         </div>    
      </section>
