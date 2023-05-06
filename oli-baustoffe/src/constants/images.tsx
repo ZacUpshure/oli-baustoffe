@@ -25,7 +25,7 @@ import partnerFive from '../assets/logos/usa-today.png';
 const dachbaustoffe = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Dachbaustoffe.png';
 // import dachplatten from '../assets/Dachplatten.jpg';
 const dachplatten = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/lima/BD14_LimaPlus_FRONT_4_panels.jpg';
-import trapezplatten from '../assets/trapezplatten.jpg';
+// import trapezplatten from '../assets/trapezplatten.jpg';
 const lkw = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/LKW.jpg';
 
 //Oli Bilder
