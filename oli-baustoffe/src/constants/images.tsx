@@ -57,7 +57,7 @@ export default {
 
     dachbaustoffe,
     dachplatten,
-    trapezplatten,
+    // trapezplatten,
     lkw,
 
     icon1,
