@@ -28,7 +28,7 @@ import trapezplatten from '../assets/trapezplatten.jpg';
 import lkw from '../assets/LKW.jpg';
 
 //Oli Bilder
-import haus1 from '../assets/haus1.jpg';
+import haus1 from '../assets/DJI_0197.jpg';
 import haus2 from '../assets/haus2.jpg';
 import haus3 from '../assets/haus3.jpg';
 
