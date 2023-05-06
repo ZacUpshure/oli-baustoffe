@@ -14,7 +14,7 @@ const Trapezplatten = () => {
             {/* <!-- STEP 01 --> */}
                 {/* <!-- IMG-BOX --> */}
             <div className={styles.step_img_box}>
-                <img src={Images.trapezplatten.src} alt="test square" className={styles.step_img}/>  
+                <img src={Images.haus3.src} alt="test square" className={styles.step_img}/>  
             </div>
                 {/* <!-- TEXT-BOX --> */}
             <div className={styles.step_text_box}>                 

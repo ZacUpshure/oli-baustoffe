@@ -10,7 +10,7 @@
     /* box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06); */
     box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 15%);
     border-radius: 11px;
-    background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+    background-image: linear-gradient(to right bottom, #E8EAEF, #e9eefd);
 }
 
 .cta_text_box{
@@ -32,10 +32,20 @@
 .cta_img_box{
     background-image: linear-gradient(
     to left bottom,
-    rgba(235, 151, 78, 0.35),
-    rgba(230, 125, 34, 0.35)
+    rgba(225, 221, 217, 0.35),
+    rgba(242, 234, 227, 0.35)
     ),
     url("../../assets/LKW.jpg"); 
     background-size: cover;
     background-position: center ; 
+}
+
+.table tr td {
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 2rem;
+}
+
+.table {
+    padding-bottom: 3rem;
 }

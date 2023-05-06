@@ -149,11 +149,12 @@
     }
     .nav_menu {
         position: absolute;
-        top: var(--nav-height);
+        top: 7rem;
         left: 0;
         width: 100%;
-        background: var(--dropdown-bg);
+        background: #fff;
         display: none;
+        /* display: block; */
     }
     .nav_menu.active {
         display: block;

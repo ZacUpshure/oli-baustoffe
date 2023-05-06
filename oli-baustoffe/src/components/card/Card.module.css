@@ -1,0 +1,115 @@
+.Cards_Section{
+    padding: 3.6rem 0 ;
+}
+
+.card{
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    border-radius: 12px;
+    overflow: hidden; 
+    transition: all 0.4s;
+}
+
+.card_content{
+    padding: 1.2rem 2.8rem 2.8rem 2.8rem;
+}
+
+.card_title{
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: 600; 
+    margin-bottom: 1.2rem;
+}
+
+.card_attributes{
+    list-style: none;  
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card_attribute{
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.card_icon{
+    height: 2.4rem;
+    width: 2.4rem; 
+    color: #e67e22;
+ 
+}
+
+.card_img{
+    width: 100%;  
+}
+
+.tags{
+     margin-bottom: 12px;
+     display: flex;
+     gap: 4px;
+}
+
+.tag{
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background-color: #51cf66; 
+    color: #333;  
+    border-radius: 100px;  
+    font-weight: 600;
+
+}
+
+.tag__red{
+    background-color: rgb(255, 81, 81);
+}
+
+.tag__blue{
+    background-color: rgb(129, 129, 255);
+}
+
+.test1{
+    width: 25%;
+}
+
+.all_cards{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.card:hover{
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06) ;
+}
+
+/* btn */
+
+.add_btn {
+    width: 4rem;
+    border-radius: .5rem;
+    border: 1.5px solid #48b185;
+    background-color: #48b185;
+    transition: .3s;
+}
+
+.add_btn:hover {
+    background-color: #3c946f;
+}
+
+.padding_left {
+    float: right;
+    text-align: right;
+}
+
+.btn_sign {
+    color: white;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

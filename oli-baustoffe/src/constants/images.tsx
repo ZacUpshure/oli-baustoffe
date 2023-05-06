@@ -27,6 +27,11 @@ import dachplatten from '../assets/Dachplatten.jpg';
 import trapezplatten from '../assets/trapezplatten.jpg';
 import lkw from '../assets/LKW.jpg';
 
+//Oli Bilder
+import haus1 from '../assets/haus1.jpg';
+import haus2 from '../assets/haus2.jpg';
+import haus3 from '../assets/haus3.jpg';
+
 export default {
     test,
     hero_img,
@@ -50,5 +55,9 @@ export default {
 
     house1,
     isohouse,
-    delivery
+    delivery,
+
+    haus1,
+    haus2,
+    haus3,
 };

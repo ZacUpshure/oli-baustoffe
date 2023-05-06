@@ -23,11 +23,12 @@ const Dachplatten = () => {
                     et justo duo dolores et ea rebum. Stet clita kasd gubergren,
                     no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </p>
-                <Lottie animationData={Images.isohouse} className={styles.lottie}/>
+                {/* <Lottie animationData={Images.isohouse} className={styles.lottie}/> */}
+                <a href="#cta" className="btn btn--full margin-right-sm">Zum Sortiment</a>
             </div>
                 {/* <!-- IMG-BOX --> */}
             <div className={styles.step_img_box}>
-                <img src={Images.dachplatten.src} alt="test square" className={styles.step_img}/>  
+                <img src={Images.haus2.src} alt="test square" className={styles.step_img}/>  
             </div>
         </div>    
      </section>

@@ -1,6 +1,9 @@
 import React from 'react';
 import styles from './Footer.module.css';
 import Images from '../../constants/images';
+import { AiFillTwitterCircle } from 'react-icons/ai';
+import { AiFillFacebook } from 'react-icons/ai';
+import { AiFillLinkedin } from 'react-icons/ai';
 
 export default function Footer() {
   return (
@@ -14,19 +17,19 @@ export default function Footer() {
   
             <ul className={styles.social_links}>
               <li>
-                <a className={styles.footer_links} href="#"
+                <a className={styles.footer_link} href="#"
                 //   ><ion-icon className="social-icon" name="logo-instagram"></ion-icon
-                ></a>
+                ><AiFillTwitterCircle /></a>
               </li>
               <li>
-                <a className={styles.footer_links} href="#"
+                <a className={styles.footer_link} href="#"
                 //   ><ion-icon className="social-icon" name="logo-facebook"></ion-icon
-                ></a>
+                ><AiFillFacebook /></a>
               </li>
               <li>
-                <a className={styles.footer_links} href="#"
+                <a className={styles.footer_link} href="#"
                 //   ><ion-icon className="social-icon" name="logo-twitter"></ion-icon
-                ></a>
+                ><AiFillLinkedin /></a>
               </li>
             </ul>
   
@@ -35,47 +38,47 @@ export default function Footer() {
             </p>
           </div>
           <div className={styles.address_col}>
-            <p className={styles.footer_heading}>Contact us</p>
+            <p className={styles.footer_heading}>Kontakt</p>
             <address className={styles.contacts}>
               <p className={styles.adress}>
-                623 Harrison St., 2nd Floor, San Francisco, CA 94107
+              Storkwinkel 5, 10711 Berlin
               </p>
               <p>
-                <a className={styles.footer_links} href="tel:415-201-6370">415-201-6370</a
+                <a className={styles.footer_link} href="tel:030-89060840">030-89060840</a
                 ><br />
-                <a className={styles.footer_links} href="mailto:engelmann-development@Edev.com"
-                  >engelmann-development@Edev.com</a>
+                <a className={styles.footer_link} href="info@olibaustoffe.de"
+                  >info@olibaustoffe.de</a>
               </p>
             </address>
           </div>
           <nav className={styles.nav_col}>
-            <p className={styles.footer_heading}>Account</p>
+            <p className={styles.footer_heading}>Home</p>
             <ul className={styles.footer_nav}>
-              <li><a className={styles.footer_links} href="#">Create account</a></li>
-              <li><a className={styles.footer_links} href="#">Sign in</a></li>
-              <li><a className={styles.footer_links} href="#">iOS app</a></li>
-              <li><a className={styles.footer_links} href="#">Android app</a></li>
+              <li><a className={styles.footer_link} href="#">Entdecken</a></li>
+              <li><a className={styles.footer_link} href="#">Gallerie</a></li>
+              <li><a className={styles.footer_link} href="#">Kontakt</a></li>
+              <li><a className={styles.footer_link} href="#">Auktionen</a></li>
             </ul>
           </nav>
   
           <nav className={`${styles.nav_col}`+" margin_left_helper"}>
-            <p className={styles.footer_heading}>Company</p>
+            <p className={styles.footer_heading}>Firma</p>
             <ul className={styles.footer_nav}>
-              <li><a className={styles.footer_links} href="#">About Engelmann Development</a></li>
-              <li><a className={styles.footer_links} href="#">For Business</a></li>
-              <li><a className={styles.footer_links} href="#">Partners</a></li>
-              <li><a className={styles.footer_links} href="#">Careers</a></li>
+              <li><a className={styles.footer_link} href="#">AGB</a></li>
+              <li><a className={styles.footer_link} href="#">Impressum</a></li>
+              <li><a className={styles.footer_link} href="#">Datenschutz</a></li>
+              {/* <li><a className={styles.footer_links} href="#"></a></li> */}
             </ul>
           </nav>
   
-          <nav className={styles.nav_col}>
+          {/* <nav className={styles.nav_col}>
             <p className={styles.footer_heading}>Resources</p>
             <ul className={styles.footer_nav}>
               <li><a className={styles.footer_links} href="#">Recipe directory</a></li>
               <li><a className={styles.footer_links} href="#">Help center</a></li>
               <li><a className={styles.footer_links} href="#">Privacy & terms</a></li>
             </ul>
-          </nav>
+          </nav> */}
         </div>
     </>
   )
