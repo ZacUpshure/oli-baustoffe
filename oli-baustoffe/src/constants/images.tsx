@@ -59,5 +59,5 @@ export default {
 
     haus1,
     haus2,
-    haus3,
+    haus3
 };
