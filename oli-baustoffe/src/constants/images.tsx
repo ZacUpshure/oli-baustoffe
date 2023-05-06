@@ -25,12 +25,14 @@ import partnerFive from '../assets/logos/usa-today.png';
 import dachbaustoffe from '../assets/Dachbaustoffe.png';
 import dachplatten from '../assets/Dachplatten.jpg';
 import trapezplatten from '../assets/trapezplatten.jpg';
-import lkw from '../assets/LKW.jpg';
+import lkw from '../assets/lkws.jpg';
 
 //Oli Bilder
 import haus1 from '../assets/DJI_0197.jpg';
-import haus2 from '../assets/haus2.jpg';
+import haus2 from '../assets/DJI_0017.jpg';
 import haus3 from '../assets/haus3.jpg';
+
+// error with dachplatten, trapezplatten, LKW
 
 export default {
     test,
