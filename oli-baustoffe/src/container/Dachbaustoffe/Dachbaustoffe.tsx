@@ -14,7 +14,8 @@ const Dachbaustoffe = () => {
             {/* <!-- STEP 01 --> */}
                 {/* <!-- IMG-BOX --> */}
             <div className={styles.step_img_box}>
-                <img src={Images.dachbaustoffe.src} alt="test square" className={styles.step_img}/>  
+                <img src={Images.dachbaustoffe} alt="test square" className={styles.step_img}/>  
+                {/* <img src={Images.bild} alt="test square" className={styles.step_img}/>   */}
             </div>
                 {/* <!-- TEXT-BOX --> */}
             <div className={styles.step_text_box}>                 

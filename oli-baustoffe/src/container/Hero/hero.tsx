@@ -28,7 +28,7 @@ const Hero = () => {
                     </div>
                 <div className="hero-img-box"> 
                     <img 
-                        src={images.haus1.src}
+                        src={images.haus1}
                         className={styles.hero_img}
                         alt="test square"
                     />

@@ -28,7 +28,7 @@ const Dachplatten = () => {
             </div>
                 {/* <!-- IMG-BOX --> */}
             <div className={styles.step_img_box}>
-                <img src={Images.haus2.src} alt="test square" className={styles.step_img}/>  
+                <img src={Images.haus2} alt="test square" className={styles.step_img}/>  
             </div>
         </div>    
      </section>

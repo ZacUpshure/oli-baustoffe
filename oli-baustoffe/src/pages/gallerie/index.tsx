@@ -93,7 +93,7 @@ const Gallerie = () => {
                             className={styles.single} 
                             key={index}
                             onClick={()=>handleOpenModal(index)}>
-                            <Image src={slide.img} alt='' width={120}/>
+                            <Image src={slide.img} alt='' width={120} height={60}/>
                         </div>
                     )
                 })}
