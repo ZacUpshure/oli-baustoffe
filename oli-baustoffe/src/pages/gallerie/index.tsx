@@ -82,7 +82,7 @@ const Gallerie = () => {
                     <AiOutlineArrowLeft className={styles.btnPrev} onClick={prevSlide}/>
                     <AiOutlineArrowRight className={styles.btnNext} onClick={nextSlide}/>
                     <div className={styles.fullScreenImage}>
-                           <Image src={GalleryImages[slideNumber].img} alt='test' />
+                           <Image src={GalleryImages[slideNumber].img} alt='test'width={520} height={320} />
                     </div>
                 </div>
             }
@@ -93,7 +93,7 @@ const Gallerie = () => {
                             className={styles.single} 
                             key={index}
                             onClick={()=>handleOpenModal(index)}>
-                            <Image src={slide.img} alt='' width={120} height={60}/>
+                            <Image src={slide.img} alt='' width={120} height={60} />
                         </div>
                     )
                 })}
