@@ -6,13 +6,20 @@ import logo from '../assets/logo.png';
 import house1 from '../assets/lottie/house1.json';
 import isohouse from '../assets/lottie/isometricHouse.json';
 import delivery from '../assets/lottie/delivery.json';
+import calender from '../assets/lottie/calender.json';
 
 // icons
 import icon1 from '../assets/icons/icon1.png';
 import icon2 from '../assets/icons/icon2.png';
 import icon3 from '../assets/icons/icon3.png';
 import icon4 from '../assets/icons/icon4.png';
-// import icon5 from '../assets/icons/icon5.png';
+import icon5 from '../assets/icons/icon5.svg';
+import icon6 from '../assets/icons/icon6.svg';
+import icon7 from '../assets/icons/Dachinformationen_Satteldach_links.svg';
+import icon8 from '../assets/icons/Dachinformationen_Satteldach_rechts.svg';
+import icon9 from '../assets/icons/Dachinformationen_Satteldach_mitte.svg';
+import icon10 from '../assets/icons/Dachinformationen_Pultdach_seite1.svg';
+import icon11 from '../assets/icons/Dachinformationen_Pultdach_seite2.svg';
 
 // logos
 import partnerOne from '../assets/logos/business-insider.png';
@@ -64,10 +71,18 @@ export default {
     icon2,
     icon3,
     icon4,
+    icon5,
+    icon6,
+    icon7, 
+    icon8, 
+    icon9, 
+    icon10, 
+    icon11, 
 
     house1,
     isohouse,
     delivery,
+    calender,
 
     haus1,
     haus2,

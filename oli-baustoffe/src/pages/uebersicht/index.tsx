@@ -12,6 +12,7 @@ import {
     Card
   } from '../../components';
 
+// implements static site generation
 export async function getStaticProps(context: any) {
     return {
       props: {overview}, // will be passed to the page component as props
@@ -24,9 +25,9 @@ const Uebersicht = (props: any) => {
   console.log("router: ", router);
   return (
     <>
-        <NavbarTwo />
         <div className='container'>
-            <Link href="http://localhost:3000/uebersicht/1" className='backlink link'><AiOutlineArrowLeft /> Zurück</Link>
+            <NavbarTwo />
+            <Link href="http://localhost:3000/" className='backlink link'><AiOutlineArrowLeft /> Zurück</Link>
         </div>
         <div className={'container center-text'}>
             <h1 className='heading_primary'> Übersicht</h1>

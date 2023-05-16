@@ -1,8 +1,8 @@
 import ProductPage from '@/container/ProductPage/ProductPage';
-import React from 'react'
+import React from 'react';
 import Images from '../../constants/images';
-import { Inter } from 'next/font/google'
-import homeStyles from '../../styles/Home.module.css'
+import { Inter } from 'next/font/google';
+import homeStyles from '../../styles/Home.module.css';
 
 import {
   Navbar,

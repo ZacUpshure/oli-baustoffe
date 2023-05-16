@@ -1,0 +1,37 @@
+[
+    {
+        "id": 0,
+        "name": "T-8",
+        "imgUrl": "Images.dachplatten",
+        "websiteUrl": "http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/0",
+        "description": "lorem ipsum"
+    },
+    {
+        "id": 1,
+        "name": "T-14",
+        "imgUrl": "Images.dachplatten",
+        "websiteUrl": "http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/1",
+        "description": "lorem ipsum"
+    },
+    {
+        "id": 2,
+        "name": "T-18",
+        "imgUrl": "Images.dachplatten",
+        "websiteUrl": "http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/2",
+        "description": "lorem ipsum"
+    },
+    {
+        "id": 3,
+        "name": "T-35",
+        "imgUrl": "Images.dachplatten",
+        "websiteUrl": "http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/3",
+        "description": "lorem ipsum"
+    },
+    {
+        "id": 4,
+        "name": "T-50",
+        "imgUrl": "Images.dachplatten",
+        "websiteUrl": "http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/4",
+        "description": "lorem ipsum"
+    }
+]

@@ -4,7 +4,7 @@ import Images from '../../constants/images';
 import styles from './Accordion.module.css';
 import {AiOutlinePlus} from 'react-icons/ai'
 
-const Accordion = () => {
+const Accordion = (props: any) => {
   return (
     <div className='container'>
         <div className={styles.accordion}>
@@ -14,7 +14,7 @@ const Accordion = () => {
                     <h2>Produkt Details</h2>
                 </label>
                 <div className={styles.accordion__content}>
-                    <Image src={Images.test} alt='test' width={420} height={420}/>
+                    <Image src={props.src} alt='test' width={420} height={420}/>
                 </div>
             </div>
         </div>

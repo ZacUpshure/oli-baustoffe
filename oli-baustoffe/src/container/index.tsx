@@ -6,3 +6,4 @@ export { default as Dachplatten } from './Dachplatten/Dachplatten';
 export { default as Trapezplatten } from './Trapezplatten/Trapezplatten';
 export { default as IconGrid } from './IconGrid/IconGrid';
 export { default as ContactInfo } from './ContactInfo/ContactInfo';
+export { default as Configurator } from './Configurator/Configurator'; 

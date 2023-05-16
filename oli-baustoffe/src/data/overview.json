@@ -10,14 +10,21 @@
         "id": 2,
         "name": "Dachplatten",
         "imgUrl": "Images.dachplatten",
-        "websiteUrl": "http://localhost:3000/uebersicht/dachpaneele_uebersicht/",
+        "websiteUrl": "http://localhost:3000/uebersicht/dachplatten_uebersicht/",
         "description": "lorem ipsum"
     },
     {
         "id": 3,
         "name": "Trapezplatten",
         "imgUrl": "Images.dachplatten",
-        "websiteUrl": "http://localhost:3000/uebersicht/dachpaneele_uebersicht/",
+        "websiteUrl": "http://localhost:3000/uebersicht/trapezplatten_uebersicht/",
+        "description": "lorem ipsum"
+    },
+    {
+        "id": 4,
+        "name": "Zubehör",
+        "imgUrl": "Images.dachplatten",
+        "websiteUrl": "http://localhost:3000/uebersicht/trapezplatten_uebersicht/",
         "description": "lorem ipsum"
     }
 ]

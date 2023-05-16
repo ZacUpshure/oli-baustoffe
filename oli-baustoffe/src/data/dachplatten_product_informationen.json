@@ -1,0 +1,44 @@
+[
+    {
+        "id": "0",
+        "name": "Bona",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/lima/BD14_LimaPlus_FRONT_4_panels.jpg",
+        "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Dachbaustoffe.png",
+        "description": "lorem ipsum"
+    },
+    {
+        "id": "1",
+        "name": "Perl",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/lima/BD14_LimaPlus_FRONT_4_panels.jpg",
+        "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Dachbaustoffe.png",
+        "description": "lorem ipsum"
+    },
+    {
+        "id": "2",
+        "name": "Beskid",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/lima/BD14_LimaPlus_FRONT_4_panels.jpg",
+        "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Dachbaustoffe.png",
+        "description": "lorem ipsum"
+    },
+    {
+        "id": "3",
+        "name": "Amalfi",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/lima/BD14_LimaPlus_FRONT_4_panels.jpg",
+        "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Dachbaustoffe.png",
+        "description": "lorem ipsum"
+    },
+    {
+        "id": "4",
+        "name": "Lima",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/lima/BD14_LimaPlus_FRONT_4_panels.jpg",
+        "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Dachbaustoffe.png",
+        "description": "lorem ipsum"
+    },
+    {
+        "id": "5",
+        "name": "Obróbki",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/lima/BD14_LimaPlus_FRONT_4_panels.jpg",
+        "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Dachbaustoffe.png",
+        "description": "lorem ipsum"
+    }
+]

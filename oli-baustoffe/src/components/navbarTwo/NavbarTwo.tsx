@@ -4,6 +4,7 @@ import { HiMenuAlt2 } from 'react-icons/hi';
 import { IoMdClose } from 'react-icons/io';
 import { IoIosArrowDown } from 'react-icons/io';
 import images from '../../constants/images';
+import Link from 'next/link';
 
 
 const NavbarTwo = () => {
@@ -21,89 +22,135 @@ const NavbarTwo = () => {
                     </a>
                 </li>
                 <li className={`${styles.nav_list} ${styles.nav_list_menu}`}>
-                    <a href="http://localhost:3000/uebersicht" className={styles.nav_link} >
+                    <Link href="http://localhost:3000/uebersicht" className={styles.nav_link} >
                         <span>Entdecken</span>
+                    </Link>
                         <IoIosArrowDown />
                         <div className={styles.dropdown}>
                             <div className={styles.dropdown_inner}>
                                 
                                 <div className={styles.dropdown_item}>
-                                    <h3 className={styles.item_heading}>Dachplatten</h3>
+                                    <Link href="http://localhost:3000/uebersicht/dachplatten_uebersicht" className={styles.nav_link} >
+                                        <h3 className={styles.item_heading}>Dachplatten</h3>
+                                    </Link>
+
                                     <div className={styles.item_list}>
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
-                                            <h4>Bona</h4>
+                                            <Link href="http://localhost:3000/uebersicht/dachplatten_uebersicht/product/0" className={styles.nav_link} >
+                                                <h4>Bona</h4>
+                                            </Link>
                                             {/* <p>lorem ipsum</p> */}
                                         </div>
                                     </div>
                                     <div className={styles.item_list}>
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
-                                            <h4>Perl</h4>
+                                            <Link href="http://localhost:3000/uebersicht/dachplatten_uebersicht/product/1" className={styles.nav_link} >
+                                                <h4>Perl</h4>
+                                            </Link>
                                             {/* <p>lorem ipsum</p> */}
                                         </div>
                                     </div>
                                     <div className={styles.item_list}>
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
-                                            <h4>Hestia</h4>
+                                            <Link href="http://localhost:3000/uebersicht/dachplatten_uebersicht/product/2" className={styles.nav_link} >
+                                                <h4>Beskid</h4>
+                                            </Link>
                                             {/* <p>lorem ipsum</p> */}
                                         </div>
                                     </div>
                                     <div className={styles.item_list}>
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
-                                            <h4>Hera</h4>
+                                            <Link href="http://localhost:3000/uebersicht/dachplatten_uebersicht/product/3" className={styles.nav_link} >
+                                                <h4>Amalfi</h4>
+                                            </Link>
+                                            {/* <p>lorem ipsum</p> */}
+                                        </div>
+                                    </div>
+                                    <div className={styles.item_list}>
+                                        <div className={styles.item_img}></div>
+                                        <div className={styles.item_list_info}>
+                                            <Link href="http://localhost:3000/uebersicht/dachplatten_uebersicht/product/4" className={styles.nav_link} >
+                                                <h4>lima</h4>
+                                            </Link>
+                                            {/* <p>lorem ipsum</p> */}
+                                        </div>
+                                    </div>
+                                    <div className={styles.item_list}>
+                                        <div className={styles.item_img}></div>
+                                        <div className={styles.item_list_info}>
+                                            <Link href="http://localhost:3000/uebersicht/dachplatten_uebersicht/product/5" className={styles.nav_link} >
+                                                <h4>obróbki</h4>
+                                            </Link>
                                             {/* <p>lorem ipsum</p> */}
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className={styles.dropdown_item}>
+                                <Link href="http://localhost:3000/uebersicht/trapezplatten_uebersicht" className={styles.nav_link} >
                                     <h3 className={styles.item_heading}>Trapezplatten</h3>
+                                </Link>
                                     <div className={styles.item_list}>
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
-                                            <h4>T-8</h4>
+                                            <Link href="http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/0" className={styles.nav_link} >
+                                                <h4>T-8</h4>
+                                            </Link>
                                             {/* <p>lorem ipsum</p> */}
                                         </div>
                                     </div>
                                     <div className={styles.item_list}>
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
-                                            <h4>T-14</h4>
+                                            <Link href="http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/0" className={styles.nav_link} >
+                                                <h4>T-14</h4>
+                                            </Link>
                                             {/* <p>lorem ipsum</p> */}
                                         </div>
                                     </div>
                                     <div className={styles.item_list}>
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
-                                            <h4>T-18</h4>
+                                            <Link href="http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/0" className={styles.nav_link} >
+                                                <h4>T-18</h4>
+                                            </Link>
                                             {/* <p>lorem ipsum</p> */}
                                         </div>
                                     </div>
                                     <div className={styles.item_list}>
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
-                                            <h4>T-35</h4>
+                                            <Link href="http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/0" className={styles.nav_link} >
+                                                <h4>T-35</h4>
+                                            </Link>
                                             {/* <p>lorem ipsum</p> */}
                                         </div>
                                     </div>
                                     <div className={styles.item_list}>
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
-                                            <h4>T-50</h4>
+                                            <Link href="http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/0" className={styles.nav_link} >
+                                                <h4>T-50</h4>
+                                            </Link>
                                             {/* <p>lorem ipsum</p> */}
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className={styles.dropdown_item}>
-                                    <h3 className={styles.item_heading}>Dachpaneele</h3>
+                                    <Link href="http://localhost:3000/uebersicht/dachpaneele_uebersicht" className={styles.nav_link} >
+                                        <h3 className={styles.item_heading}>Dachpaneele</h3>
+                                    </Link>
                                     <div className={styles.item_list}>
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
-                                            <h4>Dachpaneele</h4>
+                                            <Link href="http://localhost:3000/uebersicht/dachpaneele_uebersicht/product/0" className={styles.nav_link} >
+                                                <h4>Verschlusspaneele</h4>
+                                            </Link>
                                             {/* <p>lorem ipsum</p> */}
                                         </div>
                                     </div>
@@ -143,7 +190,6 @@ const NavbarTwo = () => {
                                 
                             </div>
                         </div>
-                    </a>
                 </li>
                 <li className={styles.nav_list}>
                     <a href="http://localhost:3000/gallerie" className={styles.nav_link}>

@@ -1,0 +1,44 @@
+[
+    {
+        "id": 0,
+        "name": "Bona",
+        "imgUrl": "Images.dachplatten",
+        "websiteUrl": "http://localhost:3000/uebersicht/dachplatten_uebersicht/product/0",
+        "description": "lorem ipsum"
+    },
+    {
+        "id": 2,
+        "name": "Perl",
+        "imgUrl": "Images.dachplatten",
+        "websiteUrl": "http://localhost:3000/uebersicht/dachplatten_uebersicht/product/1",
+        "description": "lorem ipsum"
+    },
+    {
+        "id": 3,
+        "name": "Beskid",
+        "imgUrl": "Images.dachplatten",
+        "websiteUrl": "http://localhost:3000/uebersicht/dachplatten_uebersicht/product/2",
+        "description": "lorem ipsum"
+    },
+    {
+        "id": 4,
+        "name": "Amalfi",
+        "imgUrl": "Images.dachplatten",
+        "websiteUrl": "http://localhost:3000/uebersicht/dachplatten_uebersicht/product/3",
+        "description": "lorem ipsum"
+    },
+    {
+        "id": 5,
+        "name": "Lima",
+        "imgUrl": "Images.dachplatten",
+        "websiteUrl": "http://localhost:3000/uebersicht/dachplatten_uebersicht/product/4",
+        "description": "lorem ipsum"
+    },
+    {
+        "id": 6,
+        "name": "Obróbki",
+        "imgUrl": "Images.dachplatten",
+        "websiteUrl": "http://localhost:3000/uebersicht/dachplatten_uebersicht/product/5",
+        "description": "lorem ipsum"
+    }
+]

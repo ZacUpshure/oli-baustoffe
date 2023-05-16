@@ -3,51 +3,40 @@ import styles from './ProductPage.module.css';
 import Image from 'next/image';
 import Images from '../../constants/images';
 
-interface productsType {
-    // src: string[],
-    src: any,
-    title: string,
-    description: string,
-    content: string,
-    price: number,
-    colors: any,
-    count: number,
-    _id: number
-}
+// class ProductPage extends React.Component {
+  function ProductPage(props: any) {
 
-class ProductPage extends React.Component {
-
-    state = {
-        products: [
-          {
-            _id: 1,
-            title: "Dachplatten",
-            src: [
-                Images.dachplatten,
-              ],
-            description: "UI/UX designing, html css tutorials",
-            content: "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
-            price: 23,
-            colors:["red","black","crimson","teal"],
-            count: 1,
-          }
-        ],
-        index: 0
-      };
-
-  render () {
-    const {products} = this.state; 
+    // state = {
+    //     products: [
+    //       {
+    //         _id: 1,
+    //         title: "Dachplatten",
+    //         src: [
+    //             Images.dachplatten,
+    //           ],
+    //         description: "UI/UX designing, html css tutorials",
+    //         content: "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
+    //         price: 23,
+    //         colors:["red","black","crimson","teal"],
+    //         count: 1,
+    //       }
+    //     ],
+    //     index: 0
+    //   };
+    // const {products} = this.state; 
     return(
         <div className={'container margin-bottom-md' + `${styles.app}`}>
-            {products.map(item=> (
-                <div key={item._id} className={styles.details}>
+            {/* {products.map(item=> ( */}
+                <div
+                //  key={props.id}
+                 className={styles.details}>
                     <div className={styles.big_img}>
-                        <Image src={item.src[0]} alt={item.description} width={1000} height={0}/>
+                        <Image src={props.src} alt={props.description} width={1000} height={0}/>
                     </div>
                     <div className={styles.box}>
                       <div className={styles.row}>
-                        <h2 className='heading_primary'>{item.title}</h2>
-                        <span>{item.price}</span>
+                        <h2 className='heading_primary'>{props.title}</h2>
+                        <span>{props.price}</span>
                       </div>
                       {/* <div className={styles.colors}>
                         {
@@ -56,8 +45,8 @@ class ProductPage extends React.Component {
                           ))
                         }
                       </div> */}
-                      <p>{item.description}</p>
-                      <p>{item.content}</p>
+                      <p>{props.description}</p>
+                      <p>{props.content}</p>
 {/* 
                       <div className={styles.thumb}>
                         {
@@ -70,10 +59,9 @@ class ProductPage extends React.Component {
                       <a href="#" className={'btn btn--full margin-right-sm'+`${styles.cart}`} >Bestellung Konfigurieren</a>
                     </div>
                 </div>
-            ))}
+            {/* ))} */}
         </div>
     )
-  }
 }
 
 export default ProductPage
