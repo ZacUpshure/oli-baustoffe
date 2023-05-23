@@ -3,7 +3,7 @@ import styles from './ProductPage.module.css';
 import Image from 'next/image';
 import Images from '../../constants/images';
 import Lottie from 'lottie-react';
-import {BiPhoneCall} from 'react-icons/Bi'
+import {BiPhoneCall} from 'react-icons/bi'
 
 // class ProductPage extends React.Component {
   function ProductPage(props: any) {
