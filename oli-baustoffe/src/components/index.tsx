@@ -6,4 +6,3 @@ export { default as GallerieComponent } from './gallerie/GallerieComponent';
 export { default as Popup } from './popup/Popup';
 export { default as Accordion } from './accordionTwo/Accordion';
 export { default as RangeSlider } from './rangeSlider/RangeSlider';
-export { default as Modal } from './modal/Modal';
