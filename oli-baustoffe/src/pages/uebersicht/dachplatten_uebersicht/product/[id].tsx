@@ -9,7 +9,6 @@ import Link from 'next/link';
 import {AiOutlineArrowLeft} from 'react-icons/ai';
 
 import {
-  Modal,
   NavbarTwo,
   Footer,
   Accordion
