@@ -7,6 +7,7 @@ import house1 from '../assets/lottie/house1.json';
 import isohouse from '../assets/lottie/isometricHouse.json';
 import delivery from '../assets/lottie/delivery.json';
 import calender from '../assets/lottie/calender.json';
+import support from '../assets/lottie/support-centre.json';
 
 // icons
 import icon1 from '../assets/icons/icon1.png';
@@ -34,6 +35,9 @@ const dachbaustoffe = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.co
 const dachplatten = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/lima/BD14_LimaPlus_FRONT_4_panels.jpg';
 // import trapezplatten from '../assets/trapezplatten.jpg';
 const lkw = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/LKW.jpg';
+
+// anzeige bilder für karten
+const trapezplatten_t8 = "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t8/produkt_blacha_trapezowa_t8_croped.jpg"; 
 
 //Oli Bilder
 const haus1 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0197.JPG';
@@ -67,6 +71,9 @@ export default {
     // trapezplatten,
     lkw,
 
+    //trapezplatten
+    trapezplatten_t8,
+
     icon1,
     icon2,
     icon3,
@@ -83,6 +90,7 @@ export default {
     isohouse,
     delivery,
     calender,
+    support,
 
     haus1,
     haus2,

@@ -14,7 +14,7 @@ const Accordion = (props: any) => {
                     <h2>Produkt Details</h2>
                 </label>
                 <div className={styles.accordion__content}>
-                    <Image src={props.src} alt='test' width={420} height={420}/>
+                    <Image src={props.src} className={styles.img} alt='test' width={680} height={234}/>
                 </div>
             </div>
         </div>

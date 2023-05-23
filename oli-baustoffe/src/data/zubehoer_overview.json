@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "name": "Dachteile",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/first+copy.jpeg",
+        "websiteUrl": "http://localhost:3000/uebersicht/zubehoer_uebersicht/dachteile",
+        "description": "",
+        "width": 305,
+        "height": 165
+    },
+    {
+        "id": 1,
+        "name": "Schrauben",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/optimized_schraube.jpg",
+        "websiteUrl": "http://localhost:3000/uebersicht/zubehoer_uebersicht/product/0",
+        "description": "",
+        "width": 309,
+        "height": 210
+    },
+    {
+        "id": 2,
+        "name": "Profilfüller",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Profilfu%CC%88ller.jpeg",
+        "websiteUrl": "http://localhost:3000/uebersicht/zubehoer_uebersicht/product/1",
+        "description": "",
+        "width": 160,
+        "height": 120
+    },
+    {
+        "id": 3,
+        "name": "Dachrinnen",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t35/produkt_blacha_trapezowa_t35_large+copy.jpg",
+        "websiteUrl": "http://localhost:3000/uebersicht/zubehoer_uebersicht/product/2",
+        "description": "",
+        "width": 160,
+        "height": 120
+    }
+]

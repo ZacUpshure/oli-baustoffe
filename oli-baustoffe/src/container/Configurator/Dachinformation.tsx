@@ -1,36 +1,41 @@
-import React from 'react';
+import React, { ChangeEvent, FormEvent } from 'react';
 import { useState } from 'react';
 import styles from './Configurator.module.css';
 import Image from 'next/image';
 import images from '../../constants/images';
-
 import RangeSlider from '../../components/rangeSlider/RangeSlider';
 import Satteldach from './Dachmaße_Sattel_Giebeldach/Dachmaße_Satteldach';
 import Pultdach from './Dachmaße_Pultdach/Dachmaße_Pultdach';
 
-const Dachinformation = () => {
-
-    // const [isChecked, setIsChecked] = useState(false);
-
-    // const handleCheckboxChange = (event: any) => {
-    //   setIsChecked(event.target.checked);
-    // };
-
+const Dachinformation = ({onSubmit}: any) => {
+    
+    
     const [selectedOption, setSelectedOption] = useState('');
-
     const handleOptionChange = (event: any) => {
-      setSelectedOption(event.target.value);
+        setSelectedOption(event.target.value);
+    };
+
+    const handleSelectionChange = (event: any) => {
+        const selectedValue = event.currentTarget.value;
+        setUnterkonstruktion(selectedValue);
+      };
+    
+    const [Unterkonstruktion, setUnterkonstruktion] = useState('');
+    
+    const handleSubmit = (event: any) => {
+        event.preventDefault();
+        onSubmit({ 
+            Unterkonstruktion
+        });
     };
   
-
   return (
-    <div className={styles.dachinformation_container}>
-        {/* <input type='text' /> */}
+    <div className={styles.dachinformation_container} onSubmit={handleSubmit}>
         <label htmlFor="select-option" className='subheading'>Unterkonstruktion : </label>
-        <select className={styles.select} id="select-option" name="select-option">
-            <option value="option1">Bitte wählen</option>
-            <option value="option1">Stahl</option>
-            <option value="option2">Holz</option>
+        <select className={styles.select} id="select-option" name="select-option" value={Unterkonstruktion} onChange={handleSelectionChange}>
+            <option value="nicht ausgewählt">Bitte wählen</option>
+            <option value="Stahl">Stahl</option>
+            <option value="Holz">Holz</option>
         </select>
         <label htmlFor="select-option" className='subheading'>Dachplatten in cm : </label>
         <select className={styles.select} id="select-option" name="select-option">
@@ -52,21 +57,17 @@ const Dachinformation = () => {
                     <label htmlFor="sattel_giebeldach">
                         <Image src={images.icon5} alt='test' width={182} height={182} className='image' />
                     </label>
-                    {/* <label htmlFor="sattel_giebeldach">Sattel- / Giebeldach</label> */}
                 </div>
             </div>
             <div className={styles.wrapper}>
                 <div className={styles.selectImageContainer}>
                     <input type='radio' name='groupeOne' value="option2" id='pult_flachdach' 
-                    // checked={isChecked} 
-                    // onChange={handleCheckboxChange}
-                    checked={selectedOption === 'option2'}
-                    onChange={handleOptionChange}
+                            checked={selectedOption === 'option2'}
+                            onChange={handleOptionChange}
                     />
                     <label htmlFor="pult_flachdach">
                         <Image src={images.icon6} alt='test' width={182} height={182} className='image' />
                     </label>
-                    {/* <label htmlFor="sattel_giebeldach">Sattel- / Giebeldach</label> */}
                 </div>
             </div>
         </div>
@@ -74,21 +75,10 @@ const Dachinformation = () => {
         {selectedOption === 'option1' && <Pultdach /> }
         {selectedOption === 'option2' && <Satteldach />}
 
-        {/* <label htmlFor="select-option" className='subheading'>Stößt Ihr Dach an eine Wand / Brandschutzmauer? : </label>
-        <div className={styles.radio_container}>
-            <label htmlFor="groupeTwo">
-                <input type="radio" value="Ja" name='groupeTwo' />
-                ja
-            </label>
-            <br />
-            <label htmlFor="groupeTwo">
-                <input type="radio" value="Nein" name='groupeTwo' />
-                Nein
-            </label>
-        </div> */}
-
         <label htmlFor="select-option" className='subheading'>Dachneigung : </label>
         <RangeSlider />
+        <div className='padding_top'></div>
+        <button className='btn btn--full margin-right-sm' type="submit">Daten Einreichen</button>
     </div>
   )
 }

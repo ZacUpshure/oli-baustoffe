@@ -2,8 +2,10 @@
     {
         "id": 0,
         "name": "Verschlusspaneel",
-        "imgUrl": "Images.dachplatten",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pd25/PD25_550A_copper_A.jpg",
         "websiteUrl": "http://localhost:3000/uebersicht/dachpaneele_uebersicht/product/0",
-        "description": "lorem ipsum"
+        "description": "",
+        "width": 160,
+        "height": 120
     }
 ]

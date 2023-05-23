@@ -1,28 +1,14 @@
 import React from 'react';
 import styles from './Configurator.module.css';
-// import Circle from '../../components/circle/Circle';
 import { useState } from 'react';
 import Dachinformation from './Dachinformation';
 import Produktauswahl from './Produktauswahl';
 import Dachzubehör from './Dachzubehör';
 import Befestigungsmaterial from './Befestigungsmaterial';
 import Abschluss from './Abschluss';
-
-// interface CircleProps {
-//     className: string;
-//     children?: React.ReactNode;
-//   }
-  
-//   const Circle = ({ className, children }: CircleProps) => {
-//     return <div className={className}>{children}</div>;
-//   };
+import { FormProvider } from './Context/form.context';
 
 const Configurator = () => {
-    // const [circle] = useState(4)
-    // const arr=[];
-    // for (let i = 0; i < circle; i++) {
-    //   arr.push(<Circle className="circle" key={i}>{i}</Circle>);
-    // }
     const [page, setPage] = useState(0);
 
     const FormTitle = ["Dachinformationen", "Produktauswahl", "Dachzubehör", "Abschluss"];
@@ -48,8 +34,7 @@ const Configurator = () => {
         <div className={styles.content}>
             <div className={styles.form}>
                 <div className={styles.progressbar}>
-                <div className={styles.progressbarFill}
-                     style={{ width: `${progressPercentage}%` }} />
+                    <div className={styles.progressbarFill} style={{ width: `${progressPercentage}%` }} />
                 </div>
                 <div className={styles.form_container}>
                     <div className="header">
@@ -68,7 +53,6 @@ const Configurator = () => {
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
   )

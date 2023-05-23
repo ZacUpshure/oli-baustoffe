@@ -2,7 +2,7 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Image from '../../../constants/images';
-import overview from '../../../data/dachpaneele_overview.json';
+import overview from '../../../data/zubehoer_overview.json';
 import {AiOutlineArrowLeft} from 'react-icons/ai';
 
 import {
@@ -18,7 +18,7 @@ export async function getStaticProps(context: any) {
     }
 }
 
-const DachpaneeleUebersicht = (props: any) => {
+const TrapezplattenUebersicht = (props: any) => {
   console.log("props", props)
 const router = useRouter();
 console.log("router: ", router);
@@ -29,9 +29,9 @@ return (
         <Link href="http://localhost:3000/uebersicht/" className='backlink link'><AiOutlineArrowLeft /> Zurück</Link>
       </div>
       <div className={'container center-text'}>
-          <h1 className='heading_primary padding_top'> Dachpaneele Übersicht</h1>
+          <h1 className='heading_primary padding_top'> Zubehör Übersicht</h1>
           <div className="container grid grid--3-cols margin-bottom-md">
-              {props.overview.map((overview: { id: any, name: any, imgUrl: any, websiteUrl: any, description: any, width: any, height: any}) => {
+              {props.overview.map((overview: { id: any, name: any, imgUrl: any, websiteUrl: any, description: any, width: any, height: any }) => {
                   return (
                       <Card key={overview.id}
                        width={overview.width}
@@ -44,9 +44,11 @@ return (
               })}
           </div>
       </div>
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
     </> 
   )
 }
 
-export default DachpaneeleUebersicht
+export default TrapezplattenUebersicht

@@ -153,7 +153,7 @@
         left: 0;
         width: 100%;
         background: #fff;
-        display: none;
+        /* display: none; */
         /* display: block; */
     }
     .nav_menu.active {

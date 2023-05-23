@@ -277,11 +277,11 @@ body {
       row-gap:  6.4rem ;
   }
 
-  .heading-secondary{
+  .heading_secondary{
       font-size: 3.6rem;
   }
 
-  .heading-tertiary{
+  .heading_tertiary{
       font-size: 2.4rem;
   }
 
@@ -289,11 +289,11 @@ body {
       padding: 0 3.2rem;
   }
 
-  .main-nav-list{
+  .main_nav_list{
       gap: 3.2rem;
   }
 
-  .testimonials-container{
+  .testimonials_container{
       padding: 9.6rem 3.2rem; 
   }
 
@@ -318,16 +318,16 @@ body {
       gap: 6.4rem;  
   }
 
-  .hero-text-box,
-  .hero-img-box{
+  .hero_text_box,
+  .hero_img_box{
       text-align: center;
   }
 
-  .hero-img{
+  .hero_img{
        width: 60%;
   }
 
-  .customer-quick-peek{
+  .customer_quick_peek{
       justify-content: center;
   }
 
@@ -335,15 +335,15 @@ body {
       height: 2.4rem ;
   }
 
-  .step-number{
+  .step_number{
       font-size: 7.4rem;
   }
 
-  .card-content{
+  .card_content{
       padding: 2.4rem 3.2rem 3.2rem 3.2rem;
   }
 
-  .Testimonials-Section{
+  .Testimonials_Section{
       grid-template-columns: 1fr;
  }
 
@@ -355,21 +355,21 @@ body {
       grid-template-columns: 3fr 2fr;
   }
 
-  .cta-form{
+  .cta_form{
       grid-template-columns: 1fr;
   }
 
-  .btn--form{
+  .btn__form{
       margin-top: 1.2rem;
   }
 
   /* MOBILE NAVIGATION */
-  .btn-mobile-nav{
+  .btn_mobile_nav{
       display: block;
       z-index: 9999;
   }
 
-  .main-nav{
+  .main_nav{
        background-color: rgb(255, 255, 255, 0.97);
        position: absolute;
        top: 0;
@@ -389,7 +389,7 @@ body {
        opacity: 0 ;
   }
 
-  .nav-open .main-nav{
+  .nav_open .main_nav{
       opacity: 1;
       pointer-events: auto;
       visibility: visible; 
@@ -404,13 +404,13 @@ body {
       display: none;
   }
 
-  .main-nav-list{
+  .main_nav_list{
       flex-direction: column;  
       gap: 4.8rem;
   }
 
-  .main-nav-link:link,
-  .main-nav-link:visited {
+  .main_nav_link:link,
+  .main_nav_link:visited {
     font-size: 3rem;
   }
   
@@ -431,11 +431,11 @@ body {
       justify-self: center;
   }
 
-  .heading-secondary{
+  .heading_secondary{
       margin-bottom: 4.8rem ;
   }
 
-  .pricing-plan{
+  .pricing_plan{
       width: 100% ;
   }
 
@@ -477,73 +477,119 @@ body {
 
 @media (max-width: 34em) {
   .grid{
-      row-gap: 4.8rem ;
+    row-gap: 4.8rem ;
   }
   
   .grid--2-cols,
   .grid--3-cols,
   .grid--4-cols{
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
-
+  
   .hero{
-      padding: 0 3.2rem;
+    padding: 0 3.2rem;
   }
-
-  .Hero-Section{
-      padding: 2.4rem 0   6.4rem 0; 
+  
+  .Hero_Section{
+    padding: 2.4rem 0 6.4rem 0; 
   }
-
+  
   .btn,
   .btn:link, 
   .btn:visited{
-      padding: 2.4rem 1.6rem;      
+    padding: 2.4rem 1.6rem;      
   }
-
-  .hero-img{
-      width: 80%m;
+  
+  .hero_img{
+    width: 80%;
   }
-
+  
   .logos img{
-      height: 1.2rem ;
+    height: 1.2rem ;
   }
-
+  
   .step-img-box:nth-child(2){
-      grid-row: 1; 
+    grid-row: 1; 
   }
-
+  
   .step-img-box:nth-child(6){
-      grid-row: 5; 
+    grid-row: 5; 
   }
-
+  
   .step-img-box{
-      transform: translateY(2.4rem); 
+    transform: translateY(2.4rem); 
   }
-   
+  
   .testimonials{
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
-
+  
   .gallery{
-      grid-template-columns: repeat(4, 1fr); 
-      gap: 1.2rem;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 1.2rem;
   }
-
+  
   .cta{
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
-
+  
   .cta-img-box{
-      height: 32rem;
-      grid-row: 1;
+    height: 32rem;
+    grid-row: 1;
   }
-
+  
   .cta-text-box{
-       padding: 3.2rem; 
+    padding: 3.2rem; 
   }
+  
+  .customer_faces img{
+    height: 4.2rem;
+    width: 4.2rem; 
+  }
+}
 
-  .customer-faces img{
-      height: 4.2rem;
-      width: 4.2rem; 
-  }
+/**************************/
+/* Modals */
+/**************************/
+
+
+.modal {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+}
+
+.modal-content h3 {
+  margin-top: 0;
+}
+
+.modal-content p {
+  margin-bottom: 0;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #aaa;
+}
+
+.close:hover {
+  color: #555;
 }

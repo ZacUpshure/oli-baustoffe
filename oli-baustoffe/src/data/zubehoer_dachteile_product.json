@@ -1,0 +1,65 @@
+[
+{
+    "id": "0",
+    "name": "First",
+    "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/first.jpeg",
+    "productDateImage": "",
+    "description": "lorem ipsum"
+},
+{
+    "id": "1",
+    "name": "First für Trapezbleche",
+    "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/first_fuer_trapezbleche.jpeg",
+    "productDateImage": "",
+    "description": "lorem ipsum"
+},
+{
+    "id": "2",
+    "name": "Ortgang",
+    "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Ortgang.jpeg",
+    "productDateImage": "",
+    "description": "lorem ipsum"
+},
+{
+    "id": "3",
+    "name": "Ortgang zweiteilig",
+    "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Ortgang_zweiteilig.jpeg",
+    "productDateImage": "",
+    "description": "lorem ipsum"
+},
+{
+    "id": "4",
+    "name": "Traufblech",
+    "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Traufblech.jpeg",
+    "productDateImage": "",
+    "description": "lorem ipsum"
+},
+{
+    "id": "5",
+    "name": "Maueranschluss auf Blech",
+    "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Maueranschluss_auf_Blech.jpeg",
+    "productDateImage": "",
+    "description": "lorem ipsum"
+},
+{
+    "id": "6",
+    "name": "Dachkehle",
+    "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Dachkehle.jpeg",
+    "productDateImage": "",
+    "description": "lorem ipsum"
+},
+{
+    "id": "7",
+    "name": "Schornsteineinfassung",
+    "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Schornsteineinfassung.jpeg",
+    "productDateImage": "",
+    "description": "lorem ipsum"
+},
+{
+    "id": "8",
+    "name": "Schneefang (Träne)",
+    "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Schneefang.jpeg",
+    "productDateImage": "",
+    "description": "lorem ipsum"
+}
+]

@@ -1,29 +1,21 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styles from './ProductPage.module.css';
 import Image from 'next/image';
 import Images from '../../constants/images';
+import Lottie from 'lottie-react';
+import {BiPhoneCall} from 'react-icons/Bi'
 
 // class ProductPage extends React.Component {
   function ProductPage(props: any) {
+    const [showModal, setShowModal] = useState(false);
 
-    // state = {
-    //     products: [
-    //       {
-    //         _id: 1,
-    //         title: "Dachplatten",
-    //         src: [
-    //             Images.dachplatten,
-    //           ],
-    //         description: "UI/UX designing, html css tutorials",
-    //         content: "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
-    //         price: 23,
-    //         colors:["red","black","crimson","teal"],
-    //         count: 1,
-    //       }
-    //     ],
-    //     index: 0
-    //   };
-    // const {products} = this.state; 
+    const openModal = () => {
+      setShowModal(true);
+    };
+  
+    const closeModal = () => {
+      setShowModal(false);
+    };
     return(
         <div className={'container margin-bottom-md' + `${styles.app}`}>
             {/* {products.map(item=> ( */}
@@ -55,11 +47,23 @@ import Images from '../../constants/images';
                           ))
                         }
                       </div> */}
-                      {/* <button>Bestellung Konfigurieren</button> */}
-                      <a href="#" className={'btn btn--full margin-right-sm'+`${styles.cart}`} >Bestellung Konfigurieren</a>
+                      <a href="#" onClick={() => setShowModal(true)} className={'btn btn--full margin-right-sm'+`${styles.cart}`} >Bestellung Konfigurieren</a>
                     </div>
                 </div>
-            {/* ))} */}
+                {showModal && (
+                  <div className="modal">
+                    <div className="modal-content">
+                      <span className="close" onClick={closeModal}>
+                        &times;
+                      </span>
+                      <h3 className='heading_tertiary'>Wir Beraten Sie und stellen Ihre Bestellung Zusammen!</h3>
+                      <p className='subheading'>
+                        Tel: 030-89060840 <BiPhoneCall />
+                      </p>
+                      <Lottie animationData={Images.support} />
+                    </div>
+                  </div>
+                )}
         </div>
     )
 }

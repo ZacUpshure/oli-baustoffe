@@ -9,9 +9,9 @@ const Card = (props: any) => {
   return (
     <div className={styles.Cards_Section} id={styles.cards}>
              <div className={styles.card}>
-                <Image src={Images.dachplatten} alt="card-img" className={styles.card_img} width={160} height={120}/>
+                <Image src={props.imgUrl} alt="card-img" className={styles.card_img} width={props.width} height={props.height}/>
                 <div className={styles.card_content}>
-                 {/* <div className={styles.tags}>
+                 {/* <div className={styles.tags}> 160x120
                     <span className={styles.tag}>10% off</span>
                 </div> */}
                  <p className={styles.card_title}>{props.name}</p>

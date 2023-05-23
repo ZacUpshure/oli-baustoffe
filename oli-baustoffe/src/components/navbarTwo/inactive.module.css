@@ -1,0 +1,8 @@
+@media (max-width:730px) {
+
+    /* .nav_menu  */
+    .inactive{
+        display: none;
+        /* display: block; */
+    }
+}

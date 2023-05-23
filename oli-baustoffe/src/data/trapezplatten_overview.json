@@ -2,36 +2,46 @@
     {
         "id": 0,
         "name": "T-8",
-        "imgUrl": "Images.dachplatten",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t8/produkt_blacha_trapezowa_t8_croped.jpg",
         "websiteUrl": "http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/0",
-        "description": "lorem ipsum"
+        "description": "",
+        "width": 160,
+        "height": 120
     },
     {
         "id": 1,
         "name": "T-14",
-        "imgUrl": "Images.dachplatten",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t14/produkt_blacha_trapezowa_t14_large+copy.jpg",
         "websiteUrl": "http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/1",
-        "description": "lorem ipsum"
+        "description": "",
+        "width": 160,
+        "height": 120
     },
     {
         "id": 2,
         "name": "T-18",
-        "imgUrl": "Images.dachplatten",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t18/produkt_blacha_trapezowa_t18_large+copy.jpg",
         "websiteUrl": "http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/2",
-        "description": "lorem ipsum"
+        "description": "",
+        "width": 160,
+        "height": 120
     },
     {
         "id": 3,
         "name": "T-35",
-        "imgUrl": "Images.dachplatten",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t35/produkt_blacha_trapezowa_t35_large+copy.jpg",
         "websiteUrl": "http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/3",
-        "description": "lorem ipsum"
+        "description": "",
+        "width": 160,
+        "height": 120
     },
     {
         "id": 4,
-        "name": "T-50",
-        "imgUrl": "Images.dachplatten",
+        "name": "T-55",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t55/t55_2008_copy.jpg",
         "websiteUrl": "http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/4",
-        "description": "lorem ipsum"
+        "description": "",
+        "width": 160,
+        "height": 120
     }
 ]

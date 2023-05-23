@@ -2,43 +2,55 @@
     {
         "id": 0,
         "name": "Bona",
-        "imgUrl": "Images.dachplatten",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/bona/bona_perla_cropped+(1).jpg",
         "websiteUrl": "http://localhost:3000/uebersicht/dachplatten_uebersicht/product/0",
-        "description": "lorem ipsum"
+        "description": "",
+        "width": 160,
+        "height": 120
     },
     {
         "id": 2,
         "name": "Perl",
-        "imgUrl": "Images.dachplatten",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/per%C5%82a/produkt_blachodachowka_perla_large+copy.jpg",
         "websiteUrl": "http://localhost:3000/uebersicht/dachplatten_uebersicht/product/1",
-        "description": "lorem ipsum"
+        "description": "",
+        "width": 160,
+        "height": 120
     },
     {
         "id": 3,
         "name": "Beskid",
-        "imgUrl": "Images.dachplatten",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/beskid/BD28KS_ral7024_front.jpg",
         "websiteUrl": "http://localhost:3000/uebersicht/dachplatten_uebersicht/product/2",
-        "description": "lorem ipsum"
+        "description": "",
+        "width": 160,
+        "height": 120
     },
     {
         "id": 4,
         "name": "Amalfi",
-        "imgUrl": "Images.dachplatten",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/amalfi/BD22F_black_front.jpg",
         "websiteUrl": "http://localhost:3000/uebersicht/dachplatten_uebersicht/product/3",
-        "description": "lorem ipsum"
+        "description": "",
+        "width": 160,
+        "height": 120
     },
     {
         "id": 5,
         "name": "Lima",
-        "imgUrl": "Images.dachplatten",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/lima/BD14_LimaPlus_FRONT_4_panels.jpg",
         "websiteUrl": "http://localhost:3000/uebersicht/dachplatten_uebersicht/product/4",
-        "description": "lorem ipsum"
+        "description": "",
+        "width": 160,
+        "height": 120
     },
     {
         "id": 6,
         "name": "Obróbki",
-        "imgUrl": "Images.dachplatten",
+        "imgUrl": "",
         "websiteUrl": "http://localhost:3000/uebersicht/dachplatten_uebersicht/product/5",
-        "description": "lorem ipsum"
+        "description": "",
+        "width": 160,
+        "height": 120
     }
 ]

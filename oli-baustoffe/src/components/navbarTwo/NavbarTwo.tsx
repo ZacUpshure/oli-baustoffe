@@ -1,5 +1,8 @@
 import React, {useState} from 'react';
+import classNames from 'classnames';
 import styles from './NavbarTwo.module.css';
+import secondStyles from './inactive.module.css';
+
 import { HiMenuAlt2 } from 'react-icons/hi';
 import { IoMdClose } from 'react-icons/io';
 import { IoIosArrowDown } from 'react-icons/io';
@@ -8,6 +11,15 @@ import Link from 'next/link';
 
 
 const NavbarTwo = () => {
+    const [isActive, setIsActive] = useState(true);
+    
+    const handleButtonClick = () => {
+        setIsActive(!isActive);
+    };
+    
+    const combinedClasses = classNames(styles.nav_menu, {[secondStyles.inactive]: isActive,});
+
+
   return (
     <div className={styles.container}>
         <nav className={styles.navigation}>
@@ -15,7 +27,7 @@ const NavbarTwo = () => {
                 <img src={images.logo.src} className={styles.logo} alt='logo'/>
             </a>
             {/* <ul className={`${styles.nav_menu}`}> */}
-            <ul className={`${styles.nav_menu}`}>
+            <ul className={`${combinedClasses}`}>
                 <li className={styles.nav_list}>
                     <a href="http://localhost:3000/" className={styles.nav_link}>
                         <span>Home</span>
@@ -151,39 +163,45 @@ const NavbarTwo = () => {
                                             <Link href="http://localhost:3000/uebersicht/dachpaneele_uebersicht/product/0" className={styles.nav_link} >
                                                 <h4>Verschlusspaneele</h4>
                                             </Link>
-                                            {/* <p>lorem ipsum</p> */}
+                                            {/* http://localhost:3000/uebersicht/zubehoer_uebersicht */}
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className={styles.dropdown_item}>
-                                    <h3 className={styles.item_heading}>Zubehör</h3>
+                                    <Link href="http://localhost:3000/uebersicht/zubehoer_uebersicht" className={styles.nav_link} >
+                                        <h3 className={styles.item_heading}>Zubehör</h3>
+                                    </Link>
                                     <div className={styles.item_list}>
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
-                                            <h4>Dachteile</h4>
-                                            {/* <p>lorem ipsum</p> */}
+                                            <Link href="http://localhost:3000/uebersicht/zubehoer_uebersicht" className={styles.nav_link} >
+                                                <h4>Dachteile</h4>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className={styles.item_list}>
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
-                                            <h4>Schrauben</h4>
-                                            {/* <p>lorem ipsum</p> */}
+                                            <Link href="http://localhost:3000/uebersicht/zubehoer_uebersicht" className={styles.nav_link} >
+                                                <h4>Schrauben</h4>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className={styles.item_list}>
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
-                                            <h4>Profilfüller</h4>
-                                            {/* <p>lorem ipsum</p> */}
+                                            <Link href="http://localhost:3000/uebersicht/zubehoer_uebersicht" className={styles.nav_link} >
+                                                <h4>Profilfüller</h4>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className={styles.item_list}>
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
-                                            <h4>Dachrinnen</h4>
-                                            {/* <p>lorem ipsum</p> */}
+                                            <Link href="http://localhost:3000/uebersicht/zubehoer_uebersicht" className={styles.nav_link} >
+                                                <h4>Dachrinnen</h4>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -207,7 +225,7 @@ const NavbarTwo = () => {
                     </a>
                 </li>
             </ul>
-            <div className={styles.nav_action} >
+            <div className={styles.nav_action} onClick={handleButtonClick}>
                 <div className={styles.nav_toggle}>
                     <HiMenuAlt2 />
                 </div>

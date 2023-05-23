@@ -30,11 +30,13 @@ const Uebersicht = (props: any) => {
             <Link href="http://localhost:3000/" className='backlink link'><AiOutlineArrowLeft /> Zurück</Link>
         </div>
         <div className={'container center-text'}>
-            <h1 className='heading_primary'> Übersicht</h1>
+            <h1 className='heading_primary padding_top'> Übersicht</h1>
             <div className="container grid grid--3-cols margin-bottom-md">
-                {props.overview.map((overview: { id: any; name: any; imgUrl: any; websiteUrl: any; description: any; }) => {
+                {props.overview.map((overview: { id: any, name: any, imgUrl: any, websiteUrl: any, description: any, width: any, height: any }) => {
                     return (
                         <Card key={overview.id}
+                         width={overview.width}
+                         height={overview.height}
                          name={overview.name} 
                          imgUrl={overview.imgUrl} 
                          websiteUrl={overview.websiteUrl} 
