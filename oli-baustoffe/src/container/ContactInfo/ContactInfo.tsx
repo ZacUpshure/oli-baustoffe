@@ -20,23 +20,25 @@ const ContactInfo = () => {
                     consetetur sadipscing elitr,
                     sed diam 
                 </p>
-                {/* <div>                
+                <div>                
                     <table className={styles.table}>
-                        <tr>
-                            <td><AiOutlineHome /></td>
-                            <td>Storkwinkel 5, 10711 Berlin</td>
-                        </tr>
-                        <tr>
-                            <td><AiOutlinePhone /></td>
-                            <td>030-89060840</td>
-                        </tr>
-                        <tr>
-                            <td><AiOutlineMail /></td>
-                            <td>info@olibaustoffe.de</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <th><AiOutlineHome /></th>
+                                <td>Storkwinkel 5, 10711 Berlin</td>
+                            </tr>
+                            <tr>
+                                <th><AiOutlinePhone /></th>
+                                <td>030-89060840</td>
+                            </tr>
+                            <tr>
+                                <th><AiOutlineMail /></th>
+                                <td>info@olibaustoffe.de</td>
+                            </tr>
+                        </tbody>
                     </table>
-                </div>  */}
-                <ul className={styles.table}>
+                </div> 
+                {/* <ul className={styles.table}>
                     <li>
                         <span>
                             <AiOutlineHome />
@@ -61,7 +63,7 @@ const ContactInfo = () => {
                             <a href="#">info@olibaustoffe.de</a>
                         </span>
                     </li>
-                </ul>
+                </ul> */}
                 <a href="#features" className="btn btn--outline">Anfragen </a> 
             </div>
                 <div 
