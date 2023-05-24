@@ -4,10 +4,8 @@ import { Inter } from 'next/font/google';
 import homeStyles from '../../styles/Home.module.css';
 
 import {
-    Navbar,
     NavbarTwo,
-    Footer,
-    Accordion
+    Footer
   } from '../../components';
 
 const inter = Inter({ subsets: ['latin'] })
@@ -19,39 +17,29 @@ const index = () => {
         <NavbarTwo />
     </header>      
     <div className='container margin-bottom-md'>
-        <h1 className='heading_primary padding_top center-text'> Kontakt</h1>
+        <h1 className='heading_primary padding_top center-text'> Impressum</h1>
+        <h3>Impressum nach dem §5 des TMG</h3>
         <table className='contact-table'>
           <tbody>
             <tr>
-              <th>Inhaber</th>
-              <td>Leon Bork</td>
+              <th>Steuer-Nr.</th>
+              <td>247236701497</td>
             </tr>
             <tr>
-              <th>Adresse</th>
-              <td>Storkwinkel 5, 10711 Berlin</td>
+              <th>Ust-Id</th>
+              <td>DE321057207</td>
             </tr>
             <tr>
-              <th>Verkaufsleiter</th>
-              <td>R. Poinc</td>
-            </tr>
-            <tr>
-              <th>Tel.</th>
-              <td>030 - 89060840</td>
-            </tr>
-            <tr>
-              <th>Mobile</th>
-              <td>0176-24 820 749</td>
-            </tr>
-            <tr>
-              <th>Fax</th>
-              <td>030 - 89060947</td>
-            </tr>
-            <tr>
-              <th>Email</th>
-              <td>info@olibaustoffe.de</td>
+              <th>Inhaltlich Verantwortlicher</th>
+              <td>gemäß § 55 Abs. 2 RStV: Leon Bork</td>
             </tr>
           </tbody>
         </table>
+        <p>
+            Haftungshinweis: Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für
+            den Inhalt der verlinkten Seiten sind ausschließlich deren
+            Betreiber verantwortlich.
+        </p>
 
     </div>
     <footer className={homeStyles.footer}>
