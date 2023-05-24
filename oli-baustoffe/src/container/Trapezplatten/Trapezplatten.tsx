@@ -21,11 +21,10 @@ const Trapezplatten = () => {
                 {/* <p className={styles.step_number}>01</p> */}
                 <h3 className={styles.heading_tertiary}>Trapezplatten - bundesweit lieferbar</h3>
                 <p className={styles.step_description}>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                    sed diam nonumy eirmod tempor invidunt ut labore et dolore
-                    magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                    et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-                    no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                Trapezplatten aus Schweden vom schwedischen Hüttenkonzern SSAB werden ebenso aus Stahlblechen hergestellt. 
+                Sie Trapezplatten werden auf die von Ihnen gewünschten Maße zugeschnitten und schnell geliefert. 
+                Alle Trapezplatten von unserem Baustoffhandel können auch als Fassadenplatten verlegt werden. 
+                Nutzen Sie unseren telefonischen Support für eine kompetente Beratung und einfach sowie bequeme Bestellung.
                 </p>
                 <Lottie animationData={Images.delivery} className={styles.lottie}/>
             </div>

@@ -54,9 +54,9 @@ export default function Footer() {
           <nav className={styles.nav_col}>
             <p className={styles.footer_heading}>Home</p>
             <ul className={styles.footer_nav}>
-              <li><a className={styles.footer_link} href="#">Entdecken</a></li>
-              <li><a className={styles.footer_link} href="#">Gallerie</a></li>
-              <li><a className={styles.footer_link} href="#">Kontakt</a></li>
+              <li><a className={styles.footer_link} href="http://localhost:3000/uebersicht">Entdecken</a></li>
+              <li><a className={styles.footer_link} href="http://localhost:3000/gallerie">Galerie</a></li>
+              <li><a className={styles.footer_link} href="http://localhost:3000/kontakt">Kontakt</a></li>
               <li><a className={styles.footer_link} href="#">Auktionen</a></li>
             </ul>
           </nav>
@@ -64,9 +64,9 @@ export default function Footer() {
           <nav className={`${styles.nav_col}`+" margin_left_helper"}>
             <p className={styles.footer_heading}>Firma</p>
             <ul className={styles.footer_nav}>
-              <li><a className={styles.footer_link} href="#">AGB</a></li>
-              <li><a className={styles.footer_link} href="#">Impressum</a></li>
-              <li><a className={styles.footer_link} href="#">Datenschutz</a></li>
+              <li><a className={styles.footer_link} href="http://localhost:3000/agb">AGB</a></li>
+              <li><a className={styles.footer_link} href="http://localhost:3000/impressum">Impressum</a></li>
+              <li><a className={styles.footer_link} href="http://localhost:3000/datenschutz">Datenschutz</a></li>
               {/* <li><a className={styles.footer_links} href="#"></a></li> */}
             </ul>
           </nav>

@@ -22,11 +22,10 @@ const Dachbaustoffe = () => {
                 {/* <p className={styles.step_number}>01</p> */}
                 <h3 className={styles.heading_tertiary}>Baustoffe für das Dach - Dachbaustoffe</h3>
                 <p className={styles.step_description}>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                    sed diam nonumy eirmod tempor invidunt ut labore et dolore
-                    magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                    et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-                    no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                Baustoffe für das Dach werden schnell geliefert. 
+                Hier führt Olibaustoffe ein gezieltes Angebot an Baustoffen im Sortiment. 
+                Baustoffe für das Dach, aus anders ausgedrückt, Dachbaustoffe erhalten Sie hier bei uns. 
+                Sollten Sie für Ihre Dacharbeiten Baustoffe brauchen, Oli-Baustoffe aus Berlin liefert bundesweit.
                 </p>
                 <Lottie animationData={Images.house1} className={styles.lottie}/>
             </div>

@@ -3,19 +3,19 @@
     "name": "Schrauben",
     "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/optimized_schraube.jpg",
     "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Dachbaustoffe.png",
-    "description": "lorem ipsum"
+    "description": ""
 },
 {
     "id": "1",
     "name": "Profilfüller",
     "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Profilfu%CC%88ller.jpeg",
     "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Dachbaustoffe.png",
-    "description": "lorem ipsum"
+    "description": ""
 },
 {
     "id": "2",
     "name": "Dachrinnen",
     "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/lima/BD14_LimaPlus_FRONT_4_panels.jpg",
     "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Dachbaustoffe.png",
-    "description": "lorem ipsum"
+    "description": ""
 }]

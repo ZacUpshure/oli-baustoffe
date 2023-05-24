@@ -118,7 +118,7 @@ const NavbarTwo = () => {
                                     <div className={styles.item_list}>
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
-                                            <Link href="http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/0" className={styles.nav_link} >
+                                            <Link href="http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/1" className={styles.nav_link} >
                                                 <h4>T-14</h4>
                                             </Link>
                                             {/* <p>lorem ipsum</p> */}
@@ -127,7 +127,7 @@ const NavbarTwo = () => {
                                     <div className={styles.item_list}>
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
-                                            <Link href="http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/0" className={styles.nav_link} >
+                                            <Link href="http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/2" className={styles.nav_link} >
                                                 <h4>T-18</h4>
                                             </Link>
                                             {/* <p>lorem ipsum</p> */}
@@ -136,7 +136,7 @@ const NavbarTwo = () => {
                                     <div className={styles.item_list}>
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
-                                            <Link href="http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/0" className={styles.nav_link} >
+                                            <Link href="http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/3" className={styles.nav_link} >
                                                 <h4>T-35</h4>
                                             </Link>
                                             {/* <p>lorem ipsum</p> */}
@@ -145,8 +145,8 @@ const NavbarTwo = () => {
                                     <div className={styles.item_list}>
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
-                                            <Link href="http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/0" className={styles.nav_link} >
-                                                <h4>T-50</h4>
+                                            <Link href="http://localhost:3000/uebersicht/trapezplatten_uebersicht/product/4" className={styles.nav_link} >
+                                                <h4>T-55</h4>
                                             </Link>
                                             {/* <p>lorem ipsum</p> */}
                                         </div>
@@ -175,7 +175,7 @@ const NavbarTwo = () => {
                                     <div className={styles.item_list}>
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
-                                            <Link href="http://localhost:3000/uebersicht/zubehoer_uebersicht" className={styles.nav_link} >
+                                            <Link href="http://localhost:3000/uebersicht/zubehoer_uebersicht/dachteile" className={styles.nav_link} >
                                                 <h4>Dachteile</h4>
                                             </Link>
                                         </div>
@@ -183,7 +183,7 @@ const NavbarTwo = () => {
                                     <div className={styles.item_list}>
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
-                                            <Link href="http://localhost:3000/uebersicht/zubehoer_uebersicht" className={styles.nav_link} >
+                                            <Link href="http://localhost:3000/uebersicht/zubehoer_uebersicht/product/0" className={styles.nav_link} >
                                                 <h4>Schrauben</h4>
                                             </Link>
                                         </div>
@@ -191,7 +191,7 @@ const NavbarTwo = () => {
                                     <div className={styles.item_list}>
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
-                                            <Link href="http://localhost:3000/uebersicht/zubehoer_uebersicht" className={styles.nav_link} >
+                                            <Link href="http://localhost:3000/uebersicht/zubehoer_uebersicht/product/1" className={styles.nav_link} >
                                                 <h4>Profilfüller</h4>
                                             </Link>
                                         </div>
@@ -199,7 +199,7 @@ const NavbarTwo = () => {
                                     <div className={styles.item_list}>
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
-                                            <Link href="http://localhost:3000/uebersicht/zubehoer_uebersicht" className={styles.nav_link} >
+                                            <Link href="http://localhost:3000/uebersicht/zubehoer_uebersicht/product/2" className={styles.nav_link} >
                                                 <h4>Dachrinnen</h4>
                                             </Link>
                                         </div>
@@ -215,12 +215,12 @@ const NavbarTwo = () => {
                     </a>
                 </li>
                 <li className={styles.nav_list}>
-                    <a href="#! " className={styles.nav_link}>
+                    <a href="http://localhost:3000/#" className={styles.nav_link}>
                         <span>Auktionen</span>
                     </a>
                 </li>
                 <li className={styles.nav_list}>
-                    <a href="#! " className={styles.nav_link}>
+                    <a href="http://localhost:3000/kontakt" className={styles.nav_link}>
                         <span>Kontakt</span>
                     </a>
                 </li>

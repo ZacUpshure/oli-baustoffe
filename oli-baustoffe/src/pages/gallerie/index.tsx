@@ -25,22 +25,35 @@ export async function getStaticProps(context: any) {
 const Gallerie = () => {
     const GalleryImages = [
         {
-            img: Images.dachbaustoffe
+            // img: Images.dachbaustoffe
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0005.JPG",
+            width: 180,
+            height: 100,
         },
         {
-            img: Images.dachplatten
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0006.JPG",
+            width: 180,
+            height: 100,
         },
         {
-            img: Images.dachbaustoffe
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0007.JPG",
+            width: 180,
+            height: 100,
         },
         {
-            img: Images.dachbaustoffe
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0008.JPG",
+            width: 180,
+            height: 100,
         },
         {
-            img: Images.dachbaustoffe
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0013.JPG",
+            width: 180,
+            height: 100,
         },
         {
-            img: Images.dachbaustoffe
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0015.JPG",
+            width: 180,
+            height: 100,
         },
     ]
 
@@ -70,12 +83,14 @@ const Gallerie = () => {
 
   return (
     <>
-        <NavbarTwo />
+        <header>
+            <NavbarTwo />
+        </header>
         <div className='container'>
             <Link href="http://localhost:3000/" className='backlink link'><AiOutlineArrowLeft /> Zurück</Link>
         </div>
         <div className={'container center-text margin-bottom-md'}>
-            <h1 className='heading_primary'> Gallerie</h1>
+            <h1 className='heading_primary'> Galerie</h1>
             {openModal && 
                 <div className={styles.sliderWrap}>
                     <GrClose className={styles.btnClose} onClick={handleCloseModal} />
@@ -93,13 +108,15 @@ const Gallerie = () => {
                             className={styles.single} 
                             key={index}
                             onClick={()=>handleOpenModal(index)}>
-                            <Image src={slide.img} alt='' width={120} height={60} />
+                            <Image src={slide.img} alt='test' width={slide.width} height={slide.height} />
                         </div>
                     )
                 })}
             </div>
         </div>
-        <Footer />
+        <footer>
+            <Footer />
+        </footer>
     </>
   )
 }

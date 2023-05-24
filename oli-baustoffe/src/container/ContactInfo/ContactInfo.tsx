@@ -16,9 +16,7 @@ const ContactInfo = () => {
                     Kontaktiere uns!
                 </h2>
                 <p className={styles.cta_text}>                   
-                    Lorem ipsum dolor sit amet,
-                    consetetur sadipscing elitr,
-                    sed diam 
+                Baustoffe können bei Olibaustoffe per e-Mail oder am Telefon bestellt werden. 
                 </p>
                 <div>                
                     <table className={styles.table}>
