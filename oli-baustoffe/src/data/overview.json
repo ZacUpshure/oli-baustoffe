@@ -29,7 +29,7 @@
     {
         "id": 4,
         "name": "Zubehör",
-        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/optimized_schraube.jpg",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/wkrety.jpeg",
         "websiteUrl": "http://localhost:3000/uebersicht/zubehoer_uebersicht",
         "description": "",
         "width": 309,

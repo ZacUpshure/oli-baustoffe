@@ -1,9 +1,24 @@
 [
     {
         "id": "0",
-        "name": "Verschlusspaneele",
+        "name": "pdt25",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pd25/PD25_550A_copper_A.jpg",
         "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Dachbaustoffe.png",
         "description": "Profillänge: 25 mm; Effektive Deckbriete: 510 mm; Gesamtbreite: 542 mm;"
+    },
+    {
+        "id": "1",
+        "name": "pdt28",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pd28/RS6.01_frontBend.jpg",
+        "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Dachbaustoffe.png",
+        "description": "Profillänge: 25 mm; Effektive Deckbriete: 510 mm; Gesamtbreite: 542 mm;"
+    },
+    {
+        "id": "2",
+        "name": "pdt19",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pdt19/PDT19_frontFlat.jpg",
+        "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Dachbaustoffe.png",
+        "description": "Profillänge: 25 mm; Effektive Deckbriete: 510 mm; Gesamtbreite: 542 mm;"
     }
+
 ]

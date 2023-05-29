@@ -40,7 +40,7 @@ const lkw = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaust
 const trapezplatten_t8 = "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t8/produkt_blacha_trapezowa_t8_croped.jpg"; 
 
 //Oli Bilder
-const haus1 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0197.JPG';
+const haus1 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0197.jpeg';
 const haus2 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/haus2.jpg';
 const haus3 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/haus3.JPG';
 

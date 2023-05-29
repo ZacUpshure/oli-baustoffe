@@ -8,7 +8,6 @@ const inter = Inter({ subsets: ['latin'] })
 
 import { 
   Hero,
-  Partners,
   Dachbaustoffe,
   Dachplatten,
   Trapezplatten,
@@ -34,14 +33,12 @@ export default function Home() {
         </Head>
 
         <header className={`${styles.main} ${inter.className}` + ' header'}>
-          {/* <Navbar /> */}
           <NavbarTwo />
         </header>
 
         <main className={`${styles.main} ${inter.className}`}>
           <div className={styles.description}>
             <Hero />
-            <Partners />
             <Dachbaustoffe />
             <IconGrid />
             <Dachplatten />

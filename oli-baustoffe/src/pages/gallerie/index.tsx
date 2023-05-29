@@ -55,6 +55,391 @@ const Gallerie = () => {
             width: 180,
             height: 100,
         },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0017.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0020.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0022.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0026.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0027.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0028.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0040.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0048.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0050.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0051.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0053.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0058.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0063.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0065.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0067.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0072.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0073.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0075.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0077.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0077.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0079.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0081.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0083.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0084.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0085.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0086.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0093.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0096.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0098.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0099.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0102.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0103.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0104.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0105.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0106.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0108.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0110.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0111.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0114.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0116.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0123.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0125.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0126.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0133.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0134.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0136.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0137.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0139.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0142.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0145.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0147.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0152.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0153.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0156.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0159.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0163.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0164.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0167.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0173.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0174.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0175.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0176.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0177.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0178.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0179.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0180.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0184.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0185.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0186.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0187.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0188.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0189.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0190.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0191.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0193.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0195.JPG",
+            width: 180,
+            height: 100,
+        },
+        {
+            img: "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0197.JPG",
+            width: 180,
+            height: 100,
+        }
     ]
 
     const [slideNumber, setSlideNumber] = useState(0)

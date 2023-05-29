@@ -43,14 +43,5 @@
         "description": "",
         "width": 160,
         "height": 120
-    },
-    {
-        "id": 6,
-        "name": "Obróbki",
-        "imgUrl": "",
-        "websiteUrl": "http://localhost:3000/uebersicht/dachplatten_uebersicht/product/5",
-        "description": "",
-        "width": 160,
-        "height": 120
     }
 ]

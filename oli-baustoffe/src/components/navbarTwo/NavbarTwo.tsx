@@ -91,15 +91,6 @@ const NavbarTwo = () => {
                                             {/* <p>lorem ipsum</p> */}
                                         </div>
                                     </div>
-                                    <div className={styles.item_list}>
-                                        <div className={styles.item_img}></div>
-                                        <div className={styles.item_list_info}>
-                                            <Link href="http://localhost:3000/uebersicht/dachplatten_uebersicht/product/5" className={styles.nav_link} >
-                                                <h4>obróbki</h4>
-                                            </Link>
-                                            {/* <p>lorem ipsum</p> */}
-                                        </div>
-                                    </div>
                                 </div>
 
                                 <div className={styles.dropdown_item}>
@@ -161,7 +152,25 @@ const NavbarTwo = () => {
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
                                             <Link href="http://localhost:3000/uebersicht/dachpaneele_uebersicht/product/0" className={styles.nav_link} >
-                                                <h4>Verschlusspaneele</h4>
+                                                <h4>pdt25</h4>
+                                            </Link>
+                                            {/* http://localhost:3000/uebersicht/zubehoer_uebersicht */}
+                                        </div>
+                                    </div>
+                                    <div className={styles.item_list}>
+                                        <div className={styles.item_img}></div>
+                                        <div className={styles.item_list_info}>
+                                            <Link href="http://localhost:3000/uebersicht/dachpaneele_uebersicht/product/1" className={styles.nav_link} >
+                                                <h4>pdt28</h4>
+                                            </Link>
+                                            {/* http://localhost:3000/uebersicht/zubehoer_uebersicht */}
+                                        </div>
+                                    </div>
+                                    <div className={styles.item_list}>
+                                        <div className={styles.item_img}></div>
+                                        <div className={styles.item_list_info}>
+                                            <Link href="http://localhost:3000/uebersicht/dachpaneele_uebersicht/product/2" className={styles.nav_link} >
+                                                <h4>pdt19</h4>
                                             </Link>
                                             {/* http://localhost:3000/uebersicht/zubehoer_uebersicht */}
                                         </div>
@@ -211,7 +220,7 @@ const NavbarTwo = () => {
                 </li>
                 <li className={styles.nav_list}>
                     <a href="http://localhost:3000/gallerie" className={styles.nav_link}>
-                        <span>Gallerie</span>
+                        <span>Galerie</span>
                     </a>
                 </li>
                 <li className={styles.nav_list}>
