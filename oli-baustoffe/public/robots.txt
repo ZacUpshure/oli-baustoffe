@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://atengelmann.com
+
+# Sitemaps
+Sitemap: https://atengelmann.com/sitemap.xml
