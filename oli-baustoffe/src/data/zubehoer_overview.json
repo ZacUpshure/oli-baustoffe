@@ -4,6 +4,7 @@
         "name": "Dachteile",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/first+copy.jpeg",
         "websiteUrl": "http://localhost:3000/uebersicht/zubehoer_uebersicht/dachteile",
+        "meta": "Rote Dachteile Zubehör",
         "description": "",
         "width": 305,
         "height": 165
@@ -13,6 +14,7 @@
         "name": "Schrauben",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/wkrety.jpeg",
         "websiteUrl": "http://localhost:3000/uebersicht/zubehoer_uebersicht/product/0",
+        "meta": "Schrauben Zubehör",
         "description": "",
         "width": 309,
         "height": 210
@@ -22,6 +24,7 @@
         "name": "Profilfüller",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Profilfu%CC%88ller.jpeg",
         "websiteUrl": "http://localhost:3000/uebersicht/zubehoer_uebersicht/product/1",
+        "meta": "Profilfüller Zubehör",
         "description": "",
         "width": 160,
         "height": 120
@@ -31,6 +34,7 @@
         "name": "Dachrinnen",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/bryzarynny.jpeg",
         "websiteUrl": "http://localhost:3000/uebersicht/zubehoer_uebersicht/product/2",
+        "meta": "Dachrinnen Zubehör",
         "description": "",
         "width": 160,
         "height": 120

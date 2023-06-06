@@ -34,7 +34,8 @@ const dachbaustoffe = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.co
 // import dachplatten from '../assets/Dachplatten.jpg';
 const dachplatten = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/lima/BD14_LimaPlus_FRONT_4_panels.jpg';
 // import trapezplatten from '../assets/trapezplatten.jpg';
-const lkw = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/LKW.jpg';
+// const lkw = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/LKW.jpg';
+const lkw = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0048.JPG';
 
 // anzeige bilder für karten
 const trapezplatten_t8 = "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t8/produkt_blacha_trapezowa_t8_croped.jpg"; 
@@ -42,7 +43,7 @@ const trapezplatten_t8 = "https://oli-baustoffe-images.s3.eu-central-1.amazonaws
 //Oli Bilder
 const haus1 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0197.jpeg';
 const haus2 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/haus2.jpg';
-const haus3 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/haus3.JPG';
+const haus3 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/haus3.jpeg';
 
 // import haus2 from '../assets/DJI_0017.jpg';
 // import haus3 from '../assets/haus3.jpg';

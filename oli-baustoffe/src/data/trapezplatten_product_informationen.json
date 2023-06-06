@@ -2,6 +2,7 @@
     "id": "0",
     "name": "T-8",
     "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t8/produkt_blacha_trapezowa_t8_croped.jpg",
+    "meta": "Silber Trapezplatten 'T-8'",
     "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t8/t8_data.jpg",
     "description": "Plattenbreite: 1200 mm; Deckbreite: 1170 mm; Lieferbare Länge: 500-8000 mm;"
 },
@@ -10,6 +11,7 @@
     "name": "T-14",
     "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t14/produkt_blacha_trapezowa_t14_large+copy.jpg",
     "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t14/t14_data.jpg",
+    "meta": "Grün Trapezplatten 'T-14'",
     "description": "Plattenbreite: 1134 mm; Deckbreite: 1180 mm; Lieferbare Länge: 500-8000 mm;"
 },
 {
@@ -17,6 +19,7 @@
     "name": "T-18",
     "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t18/produkt_blacha_trapezowa_t18_large+copy.jpg",
     "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t18/t18_data.jpg",
+    "meta": "Kupfer Trapezplatten 'T-18'",
     "description": "Plattenbreite: 1128 mm; Deckbreite: 1072 mm; Lieferbare Länge: 500-8000 mm;"
 },
 {
@@ -24,12 +27,14 @@
     "name": "T-35",
     "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t35/produkt_blacha_trapezowa_t35_large+copy.jpg",
     "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t35/t35_data.jpg",
+    "meta": "Blau Trapezplatten 'T-35'",
     "description": "Plattenbreite: 1100 mm; Deckbreite: 1050 mm; Lieferbare Länge: 500-8000 mm"
 },
 {
     "id": "4",
     "name": "T-55",
     "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t55/t55_2008_copy.jpg",
-    "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Dachbaustoffe.png",
+    "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t55/none.jpg",
+    "meta": "Gold Trapezplatten 'T-55'",
     "description": "Plattenbreite: 1100 mm; Deckbreite: 1070 mm; Lieferbare Länge: 500-8000 mm;"
 }]

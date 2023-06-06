@@ -4,6 +4,7 @@
         "name": "pdt25",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pd25/PD25_550A_copper_A.jpg",
         "websiteUrl": "http://localhost:3000/uebersicht/dachpaneele_uebersicht/product/0",
+        "meta": "Kupfer Dachpaneelen 'pdt25'",
         "description": "",
         "width": 160,
         "height": 120
@@ -13,6 +14,7 @@
         "name": "pdt28",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pd28/RS6.01_frontBend.jpg",
         "websiteUrl": "http://localhost:3000/uebersicht/dachpaneele_uebersicht/product/1",
+        "meta": "Silber Dachpaneelen 'pdt28'",
         "description": "",
         "width": 160,
         "height": 120
@@ -22,6 +24,7 @@
         "name": "pdt19",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pdt19/PDT19_frontFlat.jpg",
         "websiteUrl": "http://localhost:3000/uebersicht/dachpaneele_uebersicht/product/2",
+        "meta": "Schwarze Dachpaneelen 'pdt19'",
         "description": "",
         "width": 20,
         "height": 120

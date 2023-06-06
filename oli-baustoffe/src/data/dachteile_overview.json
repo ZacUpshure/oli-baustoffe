@@ -4,6 +4,7 @@
         "name": "First",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/first.jpeg",
         "websiteUrl": "http://localhost:3000/uebersicht/zubehoer_uebersicht/dachteile/product/0",
+        "meta": "First",
         "description": "",
         "width": 309,
         "height": 309
@@ -13,6 +14,7 @@
         "name": "First für Trapezbleche",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/first_fuer_trapezbleche.jpeg",
         "websiteUrl": "http://localhost:3000/uebersicht/zubehoer_uebersicht/dachteile/product/1",
+        "meta": "First für Trapezbleche",
         "description": "",
         "width": 309,
         "height": 309
@@ -22,6 +24,7 @@
         "name": "Ortgang",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Ortgang.jpeg",
         "websiteUrl": "http://localhost:3000/uebersicht/zubehoer_uebersicht/dachteile/product/2",
+        "meta": "Ortgang",
         "description": "",
         "width": 309,
         "height": 309
@@ -31,6 +34,7 @@
         "name": "Ortgang zweiteilig",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Ortgang_zweiteilig.jpeg",
         "websiteUrl": "http://localhost:3000/uebersicht/zubehoer_uebersicht/dachteile/product/3",
+        "meta": "Ortgang zweiteilig",
         "description": "",
         "width": 309,
         "height": 309
@@ -40,6 +44,7 @@
         "name": "Traufblech",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Traufblech.jpeg",
         "websiteUrl": "http://localhost:3000/uebersicht/zubehoer_uebersicht/dachteile/product/4",
+        "meta": "Traufblech",
         "description": "",
         "width": 309,
         "height": 309
@@ -49,6 +54,7 @@
         "name": "Maueranschluss auf Blech",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Maueranschluss_auf_Blech.jpeg",
         "websiteUrl": "http://localhost:3000/uebersicht/zubehoer_uebersicht/dachteile/product/5",
+        "meta": "Maueranschluss auf Blech",
         "description": "",
         "width": 309,
         "height": 309
@@ -58,6 +64,7 @@
         "name": "Dachkehle",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Dachkehle.jpeg",
         "websiteUrl": "http://localhost:3000/uebersicht/zubehoer_uebersicht/dachteile/product/6",
+        "meta": "Dachkehle",
         "description": "",
         "width": 309,
         "height": 329
@@ -67,6 +74,7 @@
         "name": "Schornsteineinfassung",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Schornsteineinfassung.jpeg",
         "websiteUrl": "http://localhost:3000/uebersicht/zubehoer_uebersicht/dachteile/product/7",
+        "meta": "Schornsteinfassung",
         "description": "",
         "width": 309,
         "height": 329
@@ -76,6 +84,7 @@
         "name": "Schneefang (Träne)",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Schneefang.jpeg",
         "websiteUrl": "http://localhost:3000/uebersicht/zubehoer_uebersicht/dachteile/product/8",
+        "meta": "Schneefang (Träne)",
         "description": "",
         "width": 160,
         "height": 120

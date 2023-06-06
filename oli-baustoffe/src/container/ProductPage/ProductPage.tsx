@@ -23,7 +23,7 @@ import {BiPhoneCall} from 'react-icons/bi'
                 //  key={props.id}
                  className={styles.details}>
                     <div className={styles.big_img}>
-                        <Image src={props.src} alt={props.description} width={1000} height={0}/>
+                        <Image src={props.src} alt={props.meta} width={1000} height={0}/>
                     </div>
                     <div className={styles.box}>
                       <div className={styles.row}>
