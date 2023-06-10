@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import images from '../../constants/images';
+import Image from 'next/image';
 import styles from './Hero.module.css';
 
 const Hero = () => {
@@ -14,23 +15,15 @@ const Hero = () => {
                         </p>
                         <a href="#cta" className="btn btn--full margin-right-sm">Zum Sortiment</a>
                         <a href="#features" className="btn btn--outline">Weiterlesen &darr; </a>
-                        {/* <div className={styles.customer_quick_peek}>
-                            <div className={styles.customer_faces}>
-                                <img src={images.test.src} alt="test-square"/>
-                                <img src={images.test.src} alt="test-square"/>
-                                <img src={images.test.src} alt="test-square"/>
-                                <img src={images.test.src} alt="test-square"/>
-                                <img src={images.test.src} alt="test-square"/>
-                                <img src={images.test.src} alt="test-square"/>
-                            </div>
-                            <p className="customer-text"><span>100+</span> Happy Customers!</p> 
-                        </div> */}
                     </div>
                 <div className="hero-img-box"> 
-                    <img 
+                    <Image 
                         src={images.haus1}
+                        width={1000}
+                        height={1200}
                         className={styles.hero_img}
-                        alt="test square"
+                        alt="Haus mit Dachplatten mit einer Grünen Umgebung."
+                        loading="lazy"
                     />
                 </div>
             </div>
