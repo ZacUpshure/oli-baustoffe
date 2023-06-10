@@ -19,8 +19,8 @@ const Hero = () => {
                 <div className="hero-img-box"> 
                     <Image 
                         src={images.haus1}
-                        width={1000}
-                        height={1200}
+                        width={1600}
+                        height={400}
                         className={styles.hero_img}
                         alt="Haus mit Dachplatten mit einer Grünen Umgebung."
                         loading="lazy"
