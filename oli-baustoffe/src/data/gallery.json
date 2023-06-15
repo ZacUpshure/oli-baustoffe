@@ -3,42 +3,42 @@
         "id": 0,
         "name": "Dachpaneele",
         "imgUrl": "Images.dachplatten",
-        "websiteUrl": "http://localhost:3000/uebersicht/dachpaneele_uebersicht/",
+        "websiteUrl": "https://atengelmann.com/uebersicht/dachpaneele_uebersicht/",
         "description": "lorem ipsum"
     },
     {
         "id": 2,
         "name": "Dachplatten",
         "imgUrl": "Images.dachplatten",
-        "websiteUrl": "http://localhost:3000/uebersicht/dachpaneele_uebersicht/",
+        "websiteUrl": "https://atengelmann.com/uebersicht/dachpaneele_uebersicht/",
         "description": "lorem ipsum"
     },
     {
         "id": 3,
         "name": "Dachplatten",
         "imgUrl": "Images.dachplatten",
-        "websiteUrl": "http://localhost:3000/uebersicht/dachpaneele_uebersicht/",
+        "websiteUrl": "https://atengelmann.com/uebersicht/dachpaneele_uebersicht/",
         "description": "lorem ipsum"
     },
     {
         "id": 4,
         "name": "Dachplatten",
         "imgUrl": "Images.dachplatten",
-        "websiteUrl": "http://localhost:3000/uebersicht/dachpaneele_uebersicht/",
+        "websiteUrl": "https://atengelmann.com/uebersicht/dachpaneele_uebersicht/",
         "description": "lorem ipsum"
     },
     {
         "id": 5,
         "name": "Dachplatten",
         "imgUrl": "Images.dachplatten",
-        "websiteUrl": "http://localhost:3000/uebersicht/dachpaneele_uebersicht/",
+        "websiteUrl": "https://atengelmann.com/uebersicht/dachpaneele_uebersicht/",
         "description": "lorem ipsum"
     },
     {
         "id": 6,
         "name": "Trapezplatten",
         "imgUrl": "Images.dachplatten",
-        "websiteUrl": "http://localhost:3000/uebersicht/dachpaneele_uebersicht/",
+        "websiteUrl": "https://atengelmann.com/uebersicht/dachpaneele_uebersicht/",
         "description": "lorem ipsum"
     }
 ]

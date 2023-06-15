@@ -83,7 +83,7 @@ const Product = (props: any) => {
         <main>
           <article itemScope itemType='https://schema.org/Article'>
             <div className='container'>
-                <Link href="http://localhost:3000/uebersicht/dachplatten_uebersicht" className='backlink link'><AiOutlineArrowLeft /> Zurück</Link>
+                <Link href="https://atengelmann.com/uebersicht/dachplatten_uebersicht" className='backlink link'><AiOutlineArrowLeft /> Zurück</Link>
             </div>
             <div className='margin-bottom-md'>
                 <ProductPage src={props.product.imgUrl} description={props.product.description} title={props.product.name} />

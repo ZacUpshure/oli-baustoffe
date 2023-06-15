@@ -2,7 +2,19 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-// import Hero from '../container/Hero/hero';
+import TagManager from 'react-gtm-module';
+
+const tagManagerArgs = {
+    gtmId: 'G-54PN3WP08S'
+}
+
+TagManager.initialize(tagManagerArgs);
+
+// Links für die Berichte:
+
+// Neue Webseite: https://pagespeed.web.dev/analysis/https-atengelmann-com/qpfqe7eplu?hl=DE&form_factor=desktop
+
+// Alte Webseite: https://pagespeed.web.dev/analysis/https-www-olibaustoffe-de/z38yaq5n49?hl=DE&form_factor=mobile
 
 const inter = Inter({ subsets: ['latin'] })
 
