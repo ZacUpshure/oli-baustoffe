@@ -2,13 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import TagManager from 'react-gtm-module';
-
-const tagManagerArgs = {
-    gtmId: 'G-54PN3WP08S'
-}
-
-TagManager.initialize(tagManagerArgs);
 
 // Links für die Berichte:
 
