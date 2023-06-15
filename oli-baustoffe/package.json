@@ -28,8 +28,5 @@
     "redux": "^4.2.1",
     "redux-toolkit": "^1.1.2",
     "typescript": "5.0.4"
-  },
-  "devDependencies": {
-    "@types/react-gtm-module": "^2.0.1"
   }
 }
