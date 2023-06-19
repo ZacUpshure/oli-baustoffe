@@ -47,7 +47,7 @@ import {BiPhoneCall} from 'react-icons/bi'
                           ))
                         }
                       </div> */}
-                      <a href="#" onClick={() => setShowModal(true)} className={'btn btn--full margin-right-sm'+`${styles.cart}`} >Bestellung Konfigurieren</a>
+                      <a href="#" onClick={() => setShowModal(true)} className={'btn btn--full margin-right-sm'+`${styles.cart}`} >Bestellen!</a>
                     </div>
                 </div>
                 {showModal && (
@@ -60,6 +60,7 @@ import {BiPhoneCall} from 'react-icons/bi'
                       <p className='subheading'>
                         Tel: 030-89060840 <BiPhoneCall />
                       </p>
+                      <p>Erreichbar von 08:00 bis 20:00 Uhr.</p>
                       <Lottie animationData={Images.support} />
                     </div>
                   </div>

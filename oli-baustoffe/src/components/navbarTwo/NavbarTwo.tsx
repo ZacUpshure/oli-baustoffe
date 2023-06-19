@@ -152,7 +152,7 @@ const NavbarTwo = () => {
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
                                             <Link href="https://atengelmann.com/uebersicht/dachpaneele_uebersicht/product/0" className={styles.nav_link} >
-                                                <h4>pdt25</h4>
+                                                <h4>pd25</h4>
                                             </Link>
                                             {/* http://localhost:3000/uebersicht/zubehoer_uebersicht */}
                                         </div>
@@ -161,7 +161,7 @@ const NavbarTwo = () => {
                                         <div className={styles.item_img}></div>
                                         <div className={styles.item_list_info}>
                                             <Link href="https://atengelmann.com/uebersicht/dachpaneele_uebersicht/product/1" className={styles.nav_link} >
-                                                <h4>pdt28</h4>
+                                                <h4>pd28</h4>
                                             </Link>
                                             {/* http://localhost:3000/uebersicht/zubehoer_uebersicht */}
                                         </div>
