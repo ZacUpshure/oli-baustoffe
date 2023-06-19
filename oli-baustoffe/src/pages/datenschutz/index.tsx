@@ -78,7 +78,7 @@ Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Komm
             </tr>
             <tr>
               <th>Adresse</th>
-              <td>Storkwinkel 5, 10711 Berlin</td>
+              <td>Karl-Pokern-Straße 35, 12587 Berlin</td>
             </tr>
             <tr>
               <th>Tel.</th>
