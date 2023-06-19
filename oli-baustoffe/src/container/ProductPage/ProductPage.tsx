@@ -48,6 +48,7 @@ import {BiPhoneCall} from 'react-icons/bi'
                         }
                       </div> */}
                       <a href="#" onClick={() => setShowModal(true)} className={'btn btn--full margin-right-sm'+`${styles.cart}`} >Bestellen!</a>
+                      <a href="https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Farbauswahl.pdf" className={'padding_left btn btn--full margin-right-sm'+`${styles.cart}`} >Farbauswahl</a>
                     </div>
                 </div>
                 {showModal && (

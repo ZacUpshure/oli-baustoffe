@@ -221,6 +221,10 @@ body {
 
 /* Reusable List */
 
+.padding_left {
+  margin-left: 0.5rem;
+}
+
 .list{
   list-style: none; 
   display: flex;

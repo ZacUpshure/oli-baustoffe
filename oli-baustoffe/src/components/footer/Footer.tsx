@@ -22,7 +22,7 @@ export default function Footer() {
                 ><AiFillTwitterCircle /></a>
               </li>
               <li>
-                <a className={styles.footer_link} href="#"
+                <a className={styles.footer_link} href="https://www.facebook.com/people/Oli-Baustoffe/100066742986075/"
                 //   ><ion-icon className="social-icon" name="logo-facebook"></ion-icon
                 ><AiFillFacebook /></a>
               </li>
@@ -41,7 +41,7 @@ export default function Footer() {
             <p className={styles.footer_heading}>Kontakt</p>
             <address className={styles.contacts}>
               <p className={styles.adress}>
-              Storkwinkel 5, 10711 Berlin
+              Karl-Pokern-Straße 35, 12587 Berlin
               </p>
               <p>
                 <a className={styles.footer_link} href="tel:030-89060840">030-89060840</a
@@ -54,9 +54,9 @@ export default function Footer() {
           <nav className={styles.nav_col}>
             <p className={styles.footer_heading}>Home</p>
             <ul className={styles.footer_nav}>
-              <li><a className={styles.footer_link} href="http://localhost:3000/uebersicht">Entdecken</a></li>
-              <li><a className={styles.footer_link} href="http://localhost:3000/gallerie">Galerie</a></li>
-              <li><a className={styles.footer_link} href="http://localhost:3000/kontakt">Kontakt</a></li>
+              <li><a className={styles.footer_link} href="https://atengelmann.com/uebersicht">Entdecken</a></li>
+              <li><a className={styles.footer_link} href="https://atengelmann.com/gallerie">Galerie</a></li>
+              <li><a className={styles.footer_link} href="https://atengelmann.com/kontakt">Kontakt</a></li>
               <li><a className={styles.footer_link} href="#">Auktionen</a></li>
             </ul>
           </nav>
@@ -64,9 +64,9 @@ export default function Footer() {
           <nav className={`${styles.nav_col}`+" margin_left_helper"}>
             <p className={styles.footer_heading}>Firma</p>
             <ul className={styles.footer_nav}>
-              <li><a className={styles.footer_link} href="http://localhost:3000/agb">AGB</a></li>
-              <li><a className={styles.footer_link} href="http://localhost:3000/impressum">Impressum</a></li>
-              <li><a className={styles.footer_link} href="http://localhost:3000/datenschutz">Datenschutz</a></li>
+              <li><a className={styles.footer_link} href="https://atengelmann.com/agb">AGB</a></li>
+              <li><a className={styles.footer_link} href="https://atengelmann.com/impressum">Impressum</a></li>
+              <li><a className={styles.footer_link} href="https://atengelmann.com/datenschutz">Datenschutz</a></li>
               {/* <li><a className={styles.footer_links} href="#"></a></li> */}
             </ul>
           </nav>
