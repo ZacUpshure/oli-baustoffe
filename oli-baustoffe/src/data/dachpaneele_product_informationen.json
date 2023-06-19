@@ -1,17 +1,17 @@
 [
     {
         "id": "0",
-        "name": "pdt25",
+        "name": "pd25",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pd25/PD25_550A_copper_A.jpg",
-        "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Dachbaustoffe.png",
+        "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pd25/pd25_data.png",
         "description": "Profillänge: 25 mm; Effektive Deckbriete: 510 mm; Gesamtbreite: 542 mm;",
         "meta": "Kupfer Dachpaneelen 'pdt25'"
     },
     {
         "id": "1",
-        "name": "pdt28",
+        "name": "pd28",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pd28/RS6.01_frontBend.jpg",
-        "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Dachbaustoffe.png",
+        "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t55/none.jpg",
         "description": "Profillänge: 25 mm; Effektive Deckbriete: 510 mm; Gesamtbreite: 542 mm;",
         "meta": "Silber Dachpaneelen 'pdt28'"
     },
@@ -19,7 +19,7 @@
         "id": "2",
         "name": "pdt19",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pdt19/PDT19_frontFlat.jpg",
-        "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Dachbaustoffe.png",
+        "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pdt19/pdt19_data.png",
         "description": "Profillänge: 25 mm; Effektive Deckbriete: 510 mm; Gesamtbreite: 542 mm;",
         "meta": "Schwarze Dachpaneelen 'pdt19'"
     }
