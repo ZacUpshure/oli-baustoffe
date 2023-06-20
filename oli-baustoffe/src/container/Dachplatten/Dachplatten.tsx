@@ -28,7 +28,7 @@ const Dachplatten = () => {
                 Dachbaustoffe wie Dachplatten sind schnell lieferbar!
                 </p>
                 {/* <Lottie animationData={Images.isohouse} className={styles.lottie}/> */}
-                <a href="#cta" className="btn btn--full margin-right-sm">Zum Sortiment</a>
+                <a href="https://atengelmann.com/uebersicht/dachplatten_uebersicht" className="btn btn--full margin-right-sm">Zum Sortiment</a>
             </div>
                 {/* <!-- IMG-BOX --> */}
             <div className={styles.step_img_box}>

@@ -42,7 +42,8 @@ const trapezplatten_t8 = "https://oli-baustoffe-images.s3.eu-central-1.amazonaws
 
 //Oli Bilder
 const haus1 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0197.jpeg';
-const haus2 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/haus2.jpg';
+const haus2 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0167_step_img.JPG';
+// const haus2 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/haus2.jpg';
 const haus3 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/haus3.jpeg';
 
 // import haus2 from '../assets/DJI_0017.jpg';
