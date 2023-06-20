@@ -4,7 +4,7 @@
         "name": "pd25",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pd25/PD25_550A_copper_A.jpg",
         "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pd25/pd25_data.png",
-        "description": "Profillänge: 25 mm; Effektive Deckbriete: 510 mm; Gesamtbreite: 542 mm;",
+        "description": "Eingangsmaterialstärke: 0,50 - 0,70 mm, Blechlänge: von 1000 mm bis 7000 mm, Profilhöhe: 25 mm",
         "meta": "Kupfer Dachpaneelen 'pdt25'"
     },
     {
@@ -20,7 +20,7 @@
         "name": "pdt19",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pdt19/PDT19_frontFlat.jpg",
         "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pdt19/pdt19_data.png",
-        "description": "Profillänge: 25 mm; Effektive Deckbriete: 510 mm; Gesamtbreite: 542 mm;",
+        "description": "Profilhöhe: 19 mm, Gesamtbreite: 1,09 MB, Abdeckbreite: ~ 1,06 m, Maximale Blattlänge: 7 m, Eingangsmaterialstärke: 0,50 mm",
         "meta": "Schwarze Dachpaneelen 'pdt19'"
     }
 

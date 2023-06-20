@@ -4,7 +4,7 @@
     "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t8/produkt_blacha_trapezowa_t8_croped.jpg",
     "meta": "Silber Trapezplatten 'T-8'",
     "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t8/t8_data.jpg",
-    "description": "Plattenbreite: 1200 mm; Deckbreite: 1170 mm; Lieferbare Länge: 500-8000 mm;"
+    "description": "Das T-8-Profil ist ein Profil für Fassaden und Untersichten. Es zeichnet sich durch eine geringere Prägesteifigkeit aus. Daher beträgt die empfohlene maximale Plattenlänge 5 m."
 },
 {
     "id": "1",
@@ -12,7 +12,7 @@
     "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t14/produkt_blacha_trapezowa_t14_large+copy.jpg",
     "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t14/t14_data.jpg",
     "meta": "Grün Trapezplatten 'T-14'",
-    "description": "Plattenbreite: 1134 mm; Deckbreite: 1180 mm; Lieferbare Länge: 500-8000 mm;"
+    "description": "T-14 ist ein universelles Profil, das sowohl für Fassaden als auch für Dächer verwendet wird. Diese Rippen zeichnen sich durch die Effizienz der nutzbaren Breite im Verhältnis zur Gesamtbreite aus. Daher verfügen sie über Kapillarrillen, die für Dichtheit an den Blechstößen sorgen. Die maximal empfohlene Plattenlänge beträgt 8 m."
 },
 {
     "id": "2",
@@ -20,7 +20,7 @@
     "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t18/produkt_blacha_trapezowa_t18_large+copy.jpg",
     "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t18/t18_data.jpg",
     "meta": "Kupfer Trapezplatten 'T-18'",
-    "description": "Plattenbreite: 1128 mm; Deckbreite: 1072 mm; Lieferbare Länge: 500-8000 mm;"
+    "description": "T-18 ist ein universelles Profil, das sowohl für Fassaden als auch für Dächer verwendet wird. Diese Rippen zeichnen sich durch die Effizienz der nutzbaren Breite im Verhältnis zur Gesamtbreite aus. Daher verfügen sie über Kapillarrillen, die für Dichtheit an den Blechstößen sorgen. Die maximal empfohlene Plattenlänge beträgt 8 m."
 },
 {
     "id": "3",
@@ -28,7 +28,7 @@
     "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t35/produkt_blacha_trapezowa_t35_large+copy.jpg",
     "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t35/t35_data.jpg",
     "meta": "Blau Trapezplatten 'T-35'",
-    "description": "Plattenbreite: 1100 mm; Deckbreite: 1050 mm; Lieferbare Länge: 500-8000 mm"
+    "description": "T-35-Platten sind vor allem für große Objekte wie Industriegebäude , Hallen, Schuppen und bei denen die Dachneigung gering ist (sie sorgen für Dichtheit). Sie werden auch als Decken und Schalung zum Gießen von Beton verwendet. Aufgrund ihrer konstruktiven Beschaffenheit erfordern sie keine so dichte Anordnung der Stützen wie bei niedrigeren Profilen. Zusätzliche Rippen verstärken die Steifigkeit der Struktur und sorgen für ein ästhetisches Erscheinungsbild."
 },
 {
     "id": "4",
@@ -36,5 +36,5 @@
     "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t55/t55_2008_copy.jpg",
     "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t55/t55_data.png",
     "meta": "Gold Trapezplatten 'T-55'",
-    "description": "Plattenbreite: 1100 mm; Deckbreite: 1070 mm; Lieferbare Länge: 500-8000 mm;"
+    "description": "T-55-Platten sind vor allem für große Objekte wie Industriegebäude , Hallen, Schuppen und dort gedacht, wo die Dachneigung gering ist (sie sorgen für Dichtigkeit). Sie werden auch als Decken und Schalung zum Gießen von Beton verwendet. Aufgrund ihrer konstruktiven Beschaffenheit erfordern sie keine so dichte Anordnung der Stützen wie bei niedrigeren Profilen. Zusätzliche Rippen verstärken die Steifigkeit der Struktur und sorgen für ein ästhetisches Erscheinungsbild."
 }]
