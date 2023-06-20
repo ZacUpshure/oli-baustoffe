@@ -9,7 +9,13 @@ const Card = (props: any) => {
   return (
     <div className={styles.Cards_Section} id={styles.cards}>
              <div className={styles.card}>
-                <Image src={props.imgUrl} alt={props.meta} className={styles.card_img} width={props.width} height={props.height}/>
+                <Image 
+                    src={props.imgUrl} 
+                    alt={props.meta} 
+                    className={styles.card_img} 
+                    width={props.width} 
+                    height={props.height}
+                />
                 <div className={styles.card_content}>
                  {/* <div className={styles.tags}> 160x120
                     <span className={styles.tag}>10% off</span>
