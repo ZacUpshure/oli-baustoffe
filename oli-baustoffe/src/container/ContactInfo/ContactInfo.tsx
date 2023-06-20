@@ -36,33 +36,8 @@ const ContactInfo = () => {
                         </tbody>
                     </table>
                 </div> 
-                {/* <ul className={styles.table}>
-                    <li>
-                        <span>
-                            <AiOutlineHome />
-                        </span>
-                        <span>
-                            <a href="#">Storkwinkel 5, 10711 Berlin</a>
-                        </span>
-                    </li>
-                    <li>
-                        <span>
-                            <AiOutlinePhone />
-                        </span>
-                        <span>
-                            <a href="#">030-89060840</a>
-                        </span>
-                    </li>
-                    <li>
-                        <span>
-                            <AiOutlineMail />
-                        </span>
-                        <span>
-                            <a href="#">info@olibaustoffe.de</a>
-                        </span>
-                    </li>
-                </ul> */}
-                <a href="#features" className="btn btn--outline">Anfragen </a> 
+
+                {/* <a href="#features" className="btn btn--outline">Anfragen </a>  */}
             </div>
                 <div 
                 className={styles.cta_img_box}
