@@ -45,6 +45,8 @@ const haus1 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibau
 const haus2 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0167_step_img.JPG';
 // const haus2 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/haus2.jpg';
 const haus3 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/haus3.jpeg';
+const schrauben_für_dachpaneele = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/schrauben_fu%CC%88r_dachpaneele.png';
+const tabelle_pd25 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pd25/Product_tabelle_pd25.png';
 
 // import haus2 from '../assets/DJI_0017.jpg';
 // import haus3 from '../assets/haus3.jpg';
@@ -96,5 +98,7 @@ export default {
 
     haus1,
     haus2,
-    haus3
+    haus3,
+    schrauben_für_dachpaneele,
+    tabelle_pd25
 };

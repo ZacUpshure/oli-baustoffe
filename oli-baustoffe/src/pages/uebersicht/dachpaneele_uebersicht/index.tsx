@@ -2,7 +2,8 @@ import React from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
-import Image from '../../../constants/images';
+import Images from '../../../constants/images';
+import Image from 'next/image'
 import overview from '../../../data/dachpaneele_overview.json';
 import {AiOutlineArrowLeft} from 'react-icons/ai';
 import { Inter } from 'next/font/google'
@@ -75,6 +76,15 @@ return (
                   );
               })}
           </div>
+        <h2 className='heading_secondary'>Zubehör</h2>
+        <div className='container grid grid--3-cols margin-bottom-md'>
+            <Image src='https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/dachpaneele_extra1.png' width={640} height={440} alt='Schrauben für Dachpaneele' />
+            <Image src='https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/dachpaneele_extra2.png' width={640} height={440} alt='Schrauben für Dachpaneele' />
+        </div>
+          <div className='container'>
+            <h2 className='heading_secondary'>Schrauben</h2>
+            <Image src={Images.schrauben_für_dachpaneele} width={640} height={440} alt='Schrauben für Dachpaneele' />
+        </div>
       </article>
     </main>
 

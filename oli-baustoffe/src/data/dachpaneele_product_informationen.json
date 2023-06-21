@@ -4,16 +4,18 @@
         "name": "pd25",
         "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pd25/PD25_550A_copper_A.jpg",
         "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pd25/pd25_data.png",
+        "tabelle": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pd25/Product_tabelle_pd25.png",
         "description": "Eingangsmaterialstärke: 0,50 - 0,70 mm, Blechlänge: von 1000 mm bis 7000 mm, Profilhöhe: 25 mm",
-        "meta": "Kupfer Dachpaneelen 'pdt25'"
+        "meta": "Kupfer Dachpaneelen 'pd25'"
     },
     {
         "id": "1",
-        "name": "pd28",
-        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pd28/RS6.01_frontBend.jpg",
-        "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t55/none.jpg",
+        "name": "pd38",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pd38/pd38_front.png",
+        "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pd38/pd38_data.png",
+        "tabelle": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pd38/Product_tabelle_pd38.png",
         "description": "Profillänge: 25 mm; Effektive Deckbriete: 510 mm; Gesamtbreite: 542 mm;",
-        "meta": "Silber Dachpaneelen 'pdt28'"
+        "meta": "Silber Dachpaneelen 'pd38'"
     },
     {
         "id": "2",

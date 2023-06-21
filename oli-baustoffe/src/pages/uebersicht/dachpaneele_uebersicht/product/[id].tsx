@@ -86,7 +86,7 @@ const Product = (props: any) => {
             </div>
             <div className='margin-bottom-md'>
                 <ProductPage src={props.product.imgUrl} meta={props.product.meta} description={props.product.description} title={props.product.name} />
-                <Accordion src={props.product.productDateImage}/>
+                <Accordion src={props.product.productDateImage} srcTable={props.product.tabelle}/>
             </div>
           </article>
         </main>

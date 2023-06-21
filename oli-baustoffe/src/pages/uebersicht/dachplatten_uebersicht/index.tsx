@@ -1,7 +1,8 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
-import Image from '../../../constants/images';
+import Images from '../../../constants/images';
+import Image from 'next/image';
 import overview from '../../../data/dachplatten_overview.json';
 import {AiOutlineArrowLeft} from 'react-icons/ai';
 import { Inter } from 'next/font/google';

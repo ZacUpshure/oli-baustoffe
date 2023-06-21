@@ -16,6 +16,9 @@ const Accordion = (props: any) => {
                 <div className={styles.accordion__content}>
                     <Image src={props.src} className={styles.img} alt='Dachplatten Produktdetails' width={680} height={234}/>
                 </div>
+                <div className={styles.accordion__content}>
+                    <Image src={props.srcTable} className={styles.img} alt='Dachplatten Produktdetails' width={680} height={234}/>
+                </div>
             </div>
         </div>
     </div>
