@@ -78,11 +78,16 @@ return (
           </div>
         <h2 className='heading_secondary'>Zubehör</h2>
         <div className='container grid grid--3-cols margin-bottom-md'>
+            <div>
+              <h3>Dachfirst für Dachpaneele</h3>
             <Image src='https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/dachpaneele_extra1.png' width={640} height={440} alt='Schrauben für Dachpaneele' />
+            </div>
+            <div>
+              <h3>Montageleiste</h3>
             <Image src='https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/dachpaneele_extra2.png' width={640} height={440} alt='Schrauben für Dachpaneele' />
+            </div>
         </div>
           <div className='container'>
-            <h2 className='heading_secondary'>Schrauben</h2>
             <Image src={Images.schrauben_für_dachpaneele} width={640} height={440} alt='Schrauben für Dachpaneele' />
         </div>
       </article>
