@@ -2,6 +2,7 @@
 import images from '../../constants/images';
 import Image from 'next/image';
 import styles from './Hero.module.css';
+import Banner from '@/components/banner/Banner';
 
 const Hero = () => {
     return (
@@ -25,6 +26,7 @@ const Hero = () => {
                     />
                 </div>
             </div>
+            <Banner />
             </section>
         </>
     )
