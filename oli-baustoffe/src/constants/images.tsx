@@ -30,22 +30,22 @@ import partnerFour from '../assets/logos/the-new-york-times.png';
 import partnerFive from '../assets/logos/usa-today.png';
 
 // Haupt Bilder
-const dachbaustoffe = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Dachbaustoffe.png';
+const dachbaustoffe = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/Dachbaustoffe.webp';
 // import dachplatten from '../assets/Dachplatten.jpg';
-const dachplatten = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/lima/BD14_LimaPlus_FRONT_4_panels.jpg';
+const dachplatten = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/lima/BD14_LimaPlus_FRONT_4_panels.webp';
 // import trapezplatten from '../assets/trapezplatten.jpg';
 // const lkw = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/LKW.jpg';
-const lkw = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0048.JPG';
+const lkw = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0048.webp';
 
 // anzeige bilder für karten
 const trapezplatten_t8 = "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t8/produkt_blacha_trapezowa_t8_croped.jpg"; 
 
 //Oli Bilder
-const haus1 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0197.jpeg';
-const haus2 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0167_step_img.JPG';
+const haus1 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0197.webp';
+const haus2 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0167_step_img.webp';
 // const haus2 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/haus2.jpg';
-const haus3 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/haus3.jpeg';
-const schrauben_für_dachpaneele = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/schrauben_fu%CC%88r_dachpaneele.png';
+const haus3 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/haus3.webp';
+const schrauben_für_dachpaneele = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/schrauben_fu%CC%88r_dachpaneele.webp';
 const tabelle_pd25 = 'https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/pd25/Product_tabelle_pd25.png';
 
 // import haus2 from '../assets/DJI_0017.jpg';

@@ -2,7 +2,7 @@
     {
         "id": "0",
         "name": "Bona",
-        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/bona/bona_perla_cropped+(1).jpg",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/bona/bona_perla_cropped+(1).webp",
         "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/bona/bona_data.jpg",
         "description": "Modullänge: 350 mm; Blechstärke: 0,5 mm; Lieferbare Längen: 45cm bis 5m. Erhältlich mit antikondensbeschichtung(vlies)",
         "meta": "Rote Dachplatten 'Bona'"
@@ -10,7 +10,7 @@
     {
         "id": "1",
         "name": "Perl",
-        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/per%C5%82a/produkt_blachodachowka_perla_large+copy.jpg",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/per%C5%82a/produkt_blachodachowka_perla_large+copy.webp",
         "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/per%C5%82a/perl_data.jpg",
         "description": "Standard: 350 mm; Auf Wunsch: 400 mm; Blechstärke: 0,5 mm; Lieferbare Längen: 45cm bis 5m; Erhältlich mit antikondensbeschichtung(vlies)",
         "width": 160,
@@ -20,7 +20,7 @@
     {
         "id": "2",
         "name": "Beskid",
-        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/beskid/BD28KS_ral7024_front.jpg",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/beskid/BD28KS_ral7024_front.webp",
         "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/beskid/beskid_data.jpg",
         "description": "Standard: 350 mm; Auf Wunsch: 400 mm; Blechstärke: 0,5 mm; Lieferbare Längen: 45cm bis 6m sowie Modulweise 2/3/4. Erhältlich mit antikondensbeschichtung(vlies)",
         "meta": "Dunkle Dachplatten 'Beskid'"
@@ -28,15 +28,15 @@
     {
         "id": "3",
         "name": "Amalfi",
-        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/amalfi/BD22F_black_front.jpg",
-        "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/amalfi/almalfi_data.jpg",
+        "imgUrl": "",
+        "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/amalfi/BD22F_black_front+(1).webp",
         "description": "Standard: 350 mm; Auf Wunsch: 400 mm; Blechstärke: 0,5 mm; Lieferbare Längen: 45cm bis 6m sowie Modulweise 2/3/4. Erhältlich mit antikondensbeschichtung(vlies)",
         "meta": "Schwarze Dachplatten 'Amalfi'"
     },
     {
         "id": "4",
         "name": "Lima",
-        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/lima/BD14_LimaPlus_FRONT_4_panels.jpg",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/lima/BD14_LimaPlus_FRONT_4_panels.webp",
         "productDateImage": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/lima/lima_data.jpg",
         "description": "Standard: 350 mm; Auf Wunsch: 400 mm; Blechstärke: 0,5 mm; Lieferbare Längen: 45cm bis 6m sowie Modulweise 2/3/4. Erhältlich mit antikondensbeschichtung(vlies)",
         "meta": "Dunkle Dachplatten 'Lima'"

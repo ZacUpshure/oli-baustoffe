@@ -2,7 +2,7 @@
     {
         "id": 0,
         "name": "Bona",
-        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/bona/bona_perla_cropped+(1).jpg",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/bona/bona_perla_cropped+(1).webp",
         "websiteUrl": "https://olibaustoffe.de/uebersicht/dachplatten_uebersicht/product/0",
         "meta": "Rote Dachplatten 'Bona'",
         "description": "",
@@ -12,7 +12,7 @@
     {
         "id": 2,
         "name": "Perl",
-        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/per%C5%82a/produkt_blachodachowka_perla_large+copy.jpg",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/per%C5%82a/produkt_blachodachowka_perla_large+copy.webp",
         "websiteUrl": "https://olibaustoffe.de/uebersicht/dachplatten_uebersicht/product/1",
         "meta": "Braune Dachplatten 'Perl'",
         "description": "",
@@ -22,7 +22,7 @@
     {
         "id": 3,
         "name": "Beskid",
-        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/beskid/BD28KS_ral7024_front.jpg",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/beskid/BD28KS_ral7024_front.webp",
         "websiteUrl": "https://olibaustoffe.de/uebersicht/dachplatten_uebersicht/product/2",
         "meta": "Dunkle Dachplatten 'Beskid'",
         "description": "",
@@ -32,7 +32,7 @@
     {
         "id": 4,
         "name": "Amalfi",
-        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/amalfi/BD22F_black_front.jpg",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/amalfi/BD22F_black_front+(1).webp",
         "websiteUrl": "https://olibaustoffe.de/uebersicht/dachplatten_uebersicht/product/3",
         "meta": "Schwarze Dachplatten 'Amalfi'",
         "description": "",
@@ -42,7 +42,7 @@
     {
         "id": 5,
         "name": "Lima",
-        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/lima/BD14_LimaPlus_FRONT_4_panels.jpg",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/lima/BD14_LimaPlus_FRONT_4_panels.webp",
         "websiteUrl": "https://olibaustoffe.de/uebersicht/dachplatten_uebersicht/product/4",
         "meta": "Dunkle Dachplatten 'Lima'",
         "description": "",

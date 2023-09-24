@@ -2,7 +2,7 @@
     {
         "id": 0,
         "name": "T-8",
-        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t8/produkt_blacha_trapezowa_t8_croped.jpg",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t8/produkt_blacha_trapezowa_t8_croped.webp",
         "websiteUrl": "https://olibaustoffe.de/uebersicht/trapezplatten_uebersicht/product/0",
         "meta": "Silber Trapezplatten 'T-8'",
         "description": "",
@@ -12,7 +12,7 @@
     {
         "id": 1,
         "name": "T-14",
-        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t14/produkt_blacha_trapezowa_t14_large+copy.jpg",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t14/produkt_blacha_trapezowa_t14_large+copy.webp",
         "websiteUrl": "https://olibaustoffe.de/uebersicht/trapezplatten_uebersicht/product/1",
         "meta": "Grün Trapezplatten 'T-14'",
         "description": "",
@@ -22,7 +22,7 @@
     {
         "id": 2,
         "name": "T-18",
-        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t18/produkt_blacha_trapezowa_t18_large+copy.jpg",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t18/produkt_blacha_trapezowa_t18_large+copy.webp",
         "websiteUrl": "https://olibaustoffe.de/uebersicht/trapezplatten_uebersicht/product/2",
         "meta": "Kupfer Trapezplatten 'T-18'",
         "description": "",
@@ -32,7 +32,7 @@
     {
         "id": 3,
         "name": "T-35",
-        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t35/produkt_blacha_trapezowa_t35_large+copy.jpg",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t35/produkt_blacha_trapezowa_t35_large+copy+(1).webp",
         "websiteUrl": "https://olibaustoffe.de/uebersicht/trapezplatten_uebersicht/product/3",
         "meta": "Blau Trapezplatten 'T-35'",
         "description": "",
@@ -42,7 +42,7 @@
     {
         "id": 4,
         "name": "T-55",
-        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t55/t55_2008_copy.jpg",
+        "imgUrl": "https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/t55/t55_2008_copy.webp",
         "websiteUrl": "https://olibaustoffe.de/uebersicht/trapezplatten_uebersicht/product/4",
         "meta": "Gold Trapezplatten 'T-55'",
         "description": "",
