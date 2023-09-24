@@ -476,7 +476,7 @@ const Gallerie = () => {
         </div>
         <div className={'container center-text margin-bottom-md'}>
             <h1 className='heading_primary'> Galerie</h1>
-            {openModal && 
+            {/* {openModal && 
                 <div className={styles.sliderWrap}>
                     <GrClose className={styles.btnClose} onClick={handleCloseModal} />
                     <AiOutlineArrowLeft className={styles.btnPrev} onClick={prevSlide}/>
@@ -485,8 +485,8 @@ const Gallerie = () => {
                            <Image src={GalleryImages[slideNumber].img} alt='test'width={520} height={320} />
                     </div>
                 </div>
-            }
-            <div className={"container grid grid--3-cols margin-bottom-md"+`${styles.galleryWrap}`}>
+            } */}
+            {/* <div className={"container grid grid--3-cols margin-bottom-md"+`${styles.galleryWrap}`}>
                 {GalleryImages.map((slide: any, index: any) => {
                     return(
                         <div 
@@ -497,7 +497,7 @@ const Gallerie = () => {
                         </div>
                     )
                 })}
-            </div>
+            </div> */}
         </div>
         <footer>
             <Footer />

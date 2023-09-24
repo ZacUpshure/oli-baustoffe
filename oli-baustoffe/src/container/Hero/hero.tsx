@@ -21,7 +21,7 @@ const Hero = () => {
                     <img 
                         src={images.haus1}
                         className={styles.hero_img}
-                        alt="Haus mit Dachplatten mit einer Grünen Umgebung."
+                        alt="Haus mit Dachpfannen mit einer Grünen Umgebung."
                         loading="lazy"
                     />
                 </div>

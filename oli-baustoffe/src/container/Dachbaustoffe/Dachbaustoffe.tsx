@@ -14,7 +14,7 @@ const Dachbaustoffe = () => {
             {/* <!-- STEP 01 --> */}
                 {/* <!-- IMG-BOX --> */}
             <div className={styles.step_img_box}>
-                <img src={Images.dachbaustoffe} alt="test square" className={styles.step_img}/>  
+                <img src={Images.dachbaustoffe} alt="Trapezblech Dach mit grauer Umgebung" className={styles.step_img}/>  
                 {/* <img src={Images.bild} alt="test square" className={styles.step_img}/>   */}
             </div>
                 {/* <!-- TEXT-BOX --> */}
@@ -23,11 +23,11 @@ const Dachbaustoffe = () => {
                 <h3 className={styles.heading_tertiary}>Baustoffe für das Dach - Dachbaustoffe</h3>
                 <p className={styles.step_description}>
                 Baustoffe für das Dach werden schnell geliefert. 
-                Hier führt Olibaustoffe ein gezieltes Angebot an Baustoffen im Sortiment. 
-                Baustoffe für das Dach, aus anders ausgedrückt, Dachbaustoffe erhalten Sie hier bei uns. 
+                Hier führt Olibaustoffe ein gezieltes Angebot an Trapezbleche, Dachpfannen und Dachpappe sowie Dachpaneelen im Sortiment. 
+                Baustoffe für das Dach, oder anders ausgedrückt, Dachbaustoffe erhalten Sie hier bei uns. 
                 Sollten Sie für Ihre Dacharbeiten Baustoffe brauchen, Oli-Baustoffe aus Berlin liefert bundesweit.
                 </p>
-                <Lottie animationData={Images.house1} className={styles.lottie}/>
+                <Lottie animationData={Images.house1} className={styles.lottie} alt='Sich bewegendes Haus mit Dachpfannen'/>
             </div>
         </div>    
      </section>

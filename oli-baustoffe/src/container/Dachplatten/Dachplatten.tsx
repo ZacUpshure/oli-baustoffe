@@ -15,24 +15,24 @@ const Dachplatten = () => {
                 {/* <!-- TEXT-BOX --> */}
             <div className={styles.step_text_box}>                 
                 {/* <p className={styles.step_number}>01</p> */}
-                <h3 className={styles.heading_tertiary}>Dachplatten - Bestellen & Liefern lassen</h3>
+                <h3 className={styles.heading_tertiary}>Dachpfannen - Bestellen & Liefern lassen</h3>
                 <p className={styles.step_description}>
-                Hier handelt es sich um Dachplatten von dem schwedischen Konzern SSAB. 
+                Hier handelt es sich um Dachpfannen von dem schwedischen Konzern SSAB. 
                 Diese Dachplatten werden aus Stahlblechen hergestellt. 
                 Die Lieferung erfolgt schnell. Holen Sie sich die exclusive Stahlbedachung in hochwertiger Qualität. 
                 28 verschiedene Farben, stehen Ihnen zur Auswahl bereit. 
-                Selbstverständlich werden die Dachplatten auf die von Ihnen gewünschte Länge zugeschnitten. 
+                Selbstverständlich werden die Dachpfannen auf die von Ihnen gewünschte Länge zugeschnitten. 
                 Lassen Sie sich einfach und kostenfrei beraten. Olibaustoffe ist gerne für Sie da. 
                 Ob Dachplatten des Typs, Bona, Pearl oder Hestia, Hera und Era. 
                 Wir beraten Sie fachgerecht und kompetent. Baustoffe bzw. 
-                Dachbaustoffe wie Dachplatten sind schnell lieferbar!
+                Dachbaustoffe wie Dachpfannen sind schnell lieferbar!
                 </p>
                 {/* <Lottie animationData={Images.isohouse} className={styles.lottie}/> */}
-                <a href="https://atengelmann.com/uebersicht/dachplatten_uebersicht" className="btn btn--full margin-right-sm">Zum Sortiment</a>
+                <a href="https://olibaustoffe.de/uebersicht/dachplatten_uebersicht" className="btn btn--full margin-right-sm">Zum Sortiment</a>
             </div>
                 {/* <!-- IMG-BOX --> */}
             <div className={styles.step_img_box}>
-                <img src={Images.haus2} alt="test square" className={styles.step_img}/>  
+                <img src={Images.haus2} alt="Haus mit braunen Dachpfannen" className={styles.step_img}/>  
             </div>
         </div>    
      </section>
