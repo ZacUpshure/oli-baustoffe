@@ -10,10 +10,10 @@ import calender from '../assets/lottie/calender.json';
 import support from '../assets/lottie/support-centre.json';
 
 // icons
-import icon1 from '../assets/icons/icon1.png';
-import icon2 from '../assets/icons/icon2.png';
-import icon3 from '../assets/icons/icon3.png';
-import icon4 from '../assets/icons/icon4.png';
+import icon1 from '../assets/icons/icon1.webp';
+import icon2 from '../assets/icons/icon2.webp';
+import icon3 from '../assets/icons/icon3.webp';
+import icon4 from '../assets/icons/icon4.webp';
 import icon5 from '../assets/icons/icon5.svg';
 import icon6 from '../assets/icons/icon6.svg';
 import icon7 from '../assets/icons/Dachinformationen_Satteldach_links.svg';
