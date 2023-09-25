@@ -81,11 +81,11 @@ return (
         <div className='container grid grid--3-cols margin-bottom-md'>
             <div>
               <h3>Dachfirst für Dachpaneele</h3>
-            <Image src='https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/dachpaneele_extra1.png' width={640} height={440} alt='Schrauben für Dachpaneele' />
+            <Image src='https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/dachpaneele_extra1.png' width={640} height={440} alt='Dachfirst für Dachpaneele' />
             </div>
             <div>
               <h3>Montageleiste</h3>
-            <Image src='https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/dachpaneele_extra2.png' width={640} height={440} alt='Schrauben für Dachpaneele' />
+            <Image src='https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/dachpaneele_extra2.png' width={640} height={440} alt='Montageleiste für Dachpaneele' />
             </div>
         </div>
           <div className='container'>
