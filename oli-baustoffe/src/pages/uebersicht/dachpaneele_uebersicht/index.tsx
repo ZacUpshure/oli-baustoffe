@@ -32,21 +32,21 @@ return (
   <>
       <Head>
         <title>Oli Baustoffe | Abteilung für Nahtlose Dachpaneele</title>
-        <meta name="description" content="Entdecken Sie hochwertige Trapezbleche Dachpfannen und Dachpappen für Ihr Dach bei uns. Unsere breite Auswahl an erstklassigen Dachmaterialien bietet Langlebigkeit, Ästhetik und erstklassigen Schutz für Ihr Zuhause. Kontaktieren Sie uns noch heute für eine kostenlose Beratung!" />
+        <meta name="description" content="Nahtlose Dachpaneele mit den modellen pd25 pd38 pdt19 sowie dazugehörige Dachfirst und Montageleiste" />
 
         <meta property="og:title" content="Oli Baustoffe | Abteilung für Nahtlose Dachpaneele" />
-        <meta property="og:description" content="Entdecken Sie hochwertige Trapezbleche Dachpfannen und Dachpappen für Ihr Dach bei uns. Unsere breite Auswahl an erstklassigen Dachmaterialien bietet Langlebigkeit, Ästhetik und erstklassigen Schutz für Ihr Zuhause. Kontaktieren Sie uns noch heute für eine kostenlose Beratung!" />
+        <meta property="og:description" content="Nahtlose Dachpaneele mit den modellen pd25 pd38 pdt19 sowie dazugehörige Dachfirst und Montageleiste" />
         <meta property="og:image" content="https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0197.jpeg" />
         <meta property="og:url" content="https://atengelmann.com/" />
         <meta property="og:type" content="website" />
 
-        <meta name="twitter:title" content="Oli Baustoffe - Hochwertige Dachplatten für Ihr Dach | Ihr Experte für Dachmaterialien" />
-        <meta name="twitter:description" content="Entdecken Sie hochwertige Trapezbleche Dachpfannen und Dachpappen für Ihr Dach bei uns. Unsere breite Auswahl an erstklassigen Dachmaterialien bietet Langlebigkeit, Ästhetik und erstklassigen Schutz für Ihr Zuhause. Kontaktieren Sie uns noch heute für eine kostenlose Beratung!" />
+        <meta name="twitter:title" content="Oli Baustoffe | Abteilung für Nahtlose Dachpaneele" />
+        <meta name="twitter:description" content="Nahtlose Dachpaneele mit den modellen pd25 pd38 pdt19 sowie dazugehörige Dachfirst und Montageleiste" />
         <meta name="twitter:image" content="https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0197.jpeg" />
         <meta name="twitter:card" content="summary_large_image" />
 
-        <meta name="linkedin:title" content="Oli Baustoffe - Hochwertige Dachplatten für Ihr Dach | Ihr Experte für Dachmaterialien" /> 
-        <meta name="linkedin:description" content="Entdecken Sie hochwertige Trapezbleche Dachpfannen und Dachpappen für Ihr Dach bei uns. Unsere breite Auswahl an erstklassigen Dachmaterialien bietet Langlebigkeit, Ästhetik und erstklassigen Schutz für Ihr Zuhause. Kontaktieren Sie uns noch heute für eine kostenlose Beratung!" />
+        <meta name="linkedin:title" content="Oli Baustoffe | Abteilung für Nahtlose Dachpaneele" /> 
+        <meta name="linkedin:description" content="Nahtlose Dachpaneele mit den modellen pd25 pd38 pdt19 sowie dazugehörige Dachfirst und Montageleiste" />
         <meta name="linkedin:image" content="https://oli-baustoffe-images.s3.eu-central-1.amazonaws.com/Olibaustoffe_bilder/DJI_0197.jpeg" />
         <meta name="linkedin:card" content="summary_large_image" />
 
@@ -57,7 +57,7 @@ return (
 
     <header className={`${mainStyles.main} ${inter.className}` + ' header container'}>
       <NavbarTwo />
-      <Link href="https://atengelmann.com/" className='backlink link'><AiOutlineArrowLeft /> Zurück</Link>
+      <Link href="https://olibaustoffe.de/" className='backlink link'><AiOutlineArrowLeft /> Zurück</Link>
     </header>
 
     <main>
