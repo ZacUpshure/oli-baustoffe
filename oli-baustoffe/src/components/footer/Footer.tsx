@@ -44,8 +44,9 @@ export default function Footer() {
               Karl-Pokern-Straße 35, 12587 Berlin
               </p>
               <p>
-                <a className={styles.footer_link} href="tel:030-89060840">030-89060840</a
-                ><br />
+                {/* <a className={styles.footer_link} href="tel:030-89060840">030-89060840</a> */}
+                <a className={styles.footer_link} href="tel:+49 176 24820749">+49 176 24820749</a>
+                <br />
                 <a className={styles.footer_link} href="info@olibaustoffe.de"
                   >info@olibaustoffe.de</a>
               </p>

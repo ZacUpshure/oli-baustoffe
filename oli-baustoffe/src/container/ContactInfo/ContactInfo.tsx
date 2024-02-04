@@ -27,7 +27,8 @@ const ContactInfo = () => {
                             </tr>
                             <tr>
                                 <th><AiOutlinePhone /></th>
-                                <td>030-89060840</td>
+                                {/* <td>030-89060840</td> */}
+                                <td>+49 176 24820749</td>
                             </tr>
                             <tr>
                                 <th><AiOutlineMail /></th>
