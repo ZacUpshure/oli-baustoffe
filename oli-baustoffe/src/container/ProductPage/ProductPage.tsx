@@ -59,8 +59,11 @@ import {BiPhoneCall} from 'react-icons/bi'
                       </span>
                       <h3 className='heading_tertiary'>Wir Beraten Sie und stellen Ihre Bestellung Zusammen!</h3>
                       <p className='subheading'>
-                        Tel: 030-89060840 <BiPhoneCall />
+                        Tel: +49 176 24820749 <BiPhoneCall />
                       </p>
+                      {/* <p className='subheading'>
+                        Tel: 030-89060840 <BiPhoneCall />
+                      </p> */}
                       <p>Erreichbar von 08:00 bis 20:00 Uhr.</p>
                       <Lottie animationData={Images.support} />
                     </div>

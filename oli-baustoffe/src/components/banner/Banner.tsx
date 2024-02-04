@@ -27,7 +27,8 @@ export default function Banner() {
               <svg viewBox="0 0 2 2" className="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true">
                 <circle cx={1} cy={1} r={1} />
               </svg>
-              <a href="tel: +493089060840">030-89060840</a> Anrufen und auf Maß schneiden lassen&nbsp;<span aria-hidden="true">&rarr;</span>
+              {/* <a href="tel: +493089060840">030-89060840</a> Anrufen und auf Maß schneiden lassen&nbsp;<span aria-hidden="true">&rarr;</span> */}
+              <a href="tel: +49 176 24820749">+49 176 24820749</a> Anrufen und auf Maß schneiden lassen&nbsp;<span aria-hidden="true">&rarr;</span>
           </p>
           <button type="button" className="-m-1.5 flex-none p-1.5">
             <span className="sr-only">Dismiss</span>
