@@ -55,30 +55,30 @@ export default function Home() {
       </Head>
 
       <header className={`${styles.main} ${inter.className}` + ' header'}>
-        {
-          //<NavbarTwo />
-        }
+        
+          <NavbarTwo />
+        
       </header>
 
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
 
           <h1>Wir sind momentan offline wegen Wartungsarbeiten.</h1>
-          {
-          //<Hero />
-          //<Dachbaustoffe />
-          //<IconGrid />
-          //<Dachplatten />
-          //<Trapezplatten />
-          //<ContactInfo />
-          }
+          
+          <Hero />
+          <Dachbaustoffe />
+          <IconGrid />
+          <Dachplatten />
+          <Trapezplatten />
+          <ContactInfo />
+          
         </div>
       </main>
 
       <footer className={styles.footer}>
-        {
-          //<Footer />
-        }
+        
+          <Footer />
+        
       </footer>
     </>
   )
