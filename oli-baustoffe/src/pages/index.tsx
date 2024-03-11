@@ -62,8 +62,6 @@ export default function Home() {
 
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
-
-          <h1>Wir sind momentan offline wegen Wartungsarbeiten.</h1>
           
           <Hero />
           <Dachbaustoffe />

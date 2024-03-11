@@ -15,7 +15,7 @@ const Hero = () => {
                         Jetzt bei Blechdachprofi oder Direkt bei Oli Baustoffe.
                         </p>
                         <a href="https://atengelmann.com/uebersicht" className="btn btn--full margin-right-sm">Zum Sortiment</a>
-                        <a href="http://blechdachprofi.de/" className="btn btn--outline">Angebot anfragen &darr; </a>
+                        <a href="http://blechdachprofi.de/contact-us/" className="btn btn--outline">Angebot anfragen &darr; </a>
                     </div>
                 <div className="hero-img-box"> 
                     <img 
