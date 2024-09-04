@@ -23,15 +23,15 @@ const index = () => {
           <tbody>
             <tr>
               <th>Steuer-Nr.</th>
-              <td>247236701497</td>
+              <td>13/475/01883</td>
             </tr>
             <tr>
               <th>Ust-Id</th>
-              <td>DE321057207</td>
+              <td>DE368877101</td>
             </tr>
             <tr>
               <th>Inhaltlich Verantwortlicher</th>
-              <td>gemäß § 55 Abs. 2 RStV: Leon Bork</td>
+              <td>gemäß § 55 Abs. 2 RStV: Ryszard Poinc</td>
             </tr>
           </tbody>
         </table>
