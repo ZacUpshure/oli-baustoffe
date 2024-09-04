@@ -41,23 +41,25 @@ export default function Footer() {
             <p className={styles.footer_heading}>Kontakt</p>
             <address className={styles.contacts}>
               <p className={styles.adress}>
-              Karl-Pokern-Straße 35, 12587 Berlin
+              Storkwinkel 5, 10711 Berlin
               </p>
               <p>
-                {/* <a className={styles.footer_link} href="tel:030-89060840">030-89060840</a> */}
+                <a className={styles.footer_link} href="tel:030-89060840">030-89060840</a>
                 <a className={styles.footer_link} href="tel:+49 176 24820749">+49 176 24820749</a>
                 <br />
-                <a className={styles.footer_link} href="info@olibaustoffe.de"
+                <a className={styles.footer_link} href="mailto:info@olibaustoffe.de"
                   >info@olibaustoffe.de</a>
+                <a className={styles.footer_link} href="mailto:ilobau@web.de"
+                  >ilobau@web.de</a>
               </p>
             </address>
           </div>
           <nav className={styles.nav_col}>
             <p className={styles.footer_heading}>Home</p>
             <ul className={styles.footer_nav}>
-              <li><a className={styles.footer_link} href="https://atengelmann.com/uebersicht">Entdecken</a></li>
-              <li><a className={styles.footer_link} href="https://atengelmann.com/gallerie">Galerie</a></li>
-              <li><a className={styles.footer_link} href="https://atengelmann.com/kontakt">Kontakt</a></li>
+              <li><a className={styles.footer_link} href="https://olibaustoffe.de/uebersicht">Entdecken</a></li>
+              <li><a className={styles.footer_link} href="https://olibaustoffe.de/gallerie">Galerie</a></li>
+              <li><a className={styles.footer_link} href="https://olibaustoffe.de/kontakt">Kontakt</a></li>
               <li><a className={styles.footer_link} href="#">Auktionen</a></li>
             </ul>
           </nav>
@@ -65,9 +67,9 @@ export default function Footer() {
           <nav className={`${styles.nav_col}`+" margin_left_helper"}>
             <p className={styles.footer_heading}>Firma</p>
             <ul className={styles.footer_nav}>
-              <li><a className={styles.footer_link} href="https://atengelmann.com/agb">AGB</a></li>
-              <li><a className={styles.footer_link} href="https://atengelmann.com/impressum">Impressum</a></li>
-              <li><a className={styles.footer_link} href="https://atengelmann.com/datenschutz">Datenschutz</a></li>
+              <li><a className={styles.footer_link} href="https://olibaustoffe.de/agb">AGB</a></li>
+              <li><a className={styles.footer_link} href="https://olibaustoffe.de/impressum">Impressum</a></li>
+              <li><a className={styles.footer_link} href="https://olibaustoffe.de/datenschutz">Datenschutz</a></li>
               {/* <li><a className={styles.footer_links} href="#"></a></li> */}
             </ul>
           </nav>
