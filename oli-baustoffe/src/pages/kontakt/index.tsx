@@ -24,15 +24,11 @@ const index = () => {
           <tbody>
             <tr>
               <th>Inhaber</th>
-              <td>Leon Bork</td>
+              <td>Ryszard Poinc</td>
             </tr>
             <tr>
               <th>Adresse</th>
               <td>Storkwinkel 5, 10711 Berlin</td>
-            </tr>
-            <tr>
-              <th>Verkaufsleiter</th>
-              <td>R. Poinc</td>
             </tr>
             <tr>
               <th>Tel.</th>
