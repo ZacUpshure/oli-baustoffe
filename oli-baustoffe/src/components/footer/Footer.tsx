@@ -50,6 +50,7 @@ export default function Footer() {
                 <br />
                 <a className={styles.footer_link} href="mailto:info@olibaustoffe.de"
                   >info@olibaustoffe.de</a>
+                <br />
                 <a className={styles.footer_link} href="mailto:ilobau@web.de"
                   >ilobau@web.de</a>
               </p>
