@@ -45,6 +45,7 @@ export default function Footer() {
               </p>
               <p>
                 <a className={styles.footer_link} href="tel:030-89060840">030-89060840</a>
+                <br />
                 <a className={styles.footer_link} href="tel:+49 176 24820749">+49 176 24820749</a>
                 <br />
                 <a className={styles.footer_link} href="mailto:info@olibaustoffe.de"
