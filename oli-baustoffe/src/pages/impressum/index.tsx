@@ -33,6 +33,10 @@ const index = () => {
               <th>Inhaltlich Verantwortlicher</th>
               <td>gemäß § 55 Abs. 2 RStV: Ryszard Poinc</td>
             </tr>
+            <tr>
+              <th>Gewerbe Adresse</th>
+              <td>Fasanenstraße 31, 10719 Berlin</td>
+            </tr>
           </tbody>
         </table>
         <p>
