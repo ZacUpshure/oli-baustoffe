@@ -1,0 +1,3 @@
+import Lottie from "@/components/LottieClient";
+
+// Rest of the file content goes here...
